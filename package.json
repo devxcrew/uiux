@@ -1,0 +1,35 @@
+{
+  "name": "@codexsun/uiux",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @codexsun/uiux-web",
+    "build": "npm run build --workspace @codexsun/uiux-web",
+    "typecheck": "npm run typecheck --workspace @codexsun/uiux-web",
+    "lint": "npm run lint --workspace @codexsun/uiux-web",
+    "check:repository": "node tools/check-repository.mjs",
+    "check": "npm run check:repository && npm run typecheck",
+    "verify": "npm run check && npm run build",
+    "version:bump": "node tools/version-bump.mjs",
+    "github:now": "devxcrew-tools github:now",
+    "fix:line-endings": "devxcrew-tools lines:fix",
+    "test:release-tools": "node --test tools/line-endings.test.mjs tools/version-bump.test.mjs",
+    "check:versions": "devxcrew-tools check:versions",
+    "preinstall": "npm install --prefix ../../shared/ui",
+    "version:update": "devxcrew-tools version:bump"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devxcrew/uiux.git"
+  },
+  "devDependencies": {
+    "@devxcrew/tools": "file:vendor/devxcrew-tools-0.1.2.tgz"
+  }
+}

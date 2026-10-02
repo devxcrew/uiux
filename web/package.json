@@ -1,0 +1,30 @@
+{
+  "name": "@codexsun/uiux-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "lint": "eslint  --cache --cache-location ../../../node_modules/.cache/eslint/uiux-web.eslintcache",
+    "typecheck": "tsc -p tsconfig.json --noEmit --pretty false",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@codexsun/ui": "file:../../../shared/ui",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "^1.33.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-is": "^19.3.0",
+    "recharts": "^3.8.0",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}

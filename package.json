@@ -1,7 +1,7 @@
 {
   "name": "@codexsun/uiux",
   "private": true,
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "module",
   "workspaces": [
     "web"
@@ -14,21 +14,22 @@
     "check:repository": "node tools/check-repository.mjs",
     "check": "npm run tools:check && npm run check:repository && npm run typecheck",
     "verify": "npm run check && npm run build",
-    "version:bump": "devxcrew-tools version:bump",
-    "github:now": "devxcrew-tools github:now",
-    "fix:line-endings": "devxcrew-tools lines:fix",
+    "version:bump": "node ../../shared/mcp-governance/client/repository.mjs version:bump",
+    "github:now": "node ../../shared/mcp-governance/client/repository.mjs github:now",
+    "fix:line-endings": "node ../../shared/mcp-governance/client/repository.mjs lines:fix",
     "test:release-tools": "node --test tools/line-endings.test.mjs tools/version-bump.test.mjs",
-    "check:versions": "devxcrew-tools check:versions",
+    "check:versions": "node ../../shared/mcp-governance/client/repository.mjs check:versions",
     "preinstall": "npm install --prefix ../../shared/ui",
-    "version:update": "devxcrew-tools version:bump",
-    "version:show": "devxcrew-tools version:show",
-    "changelog:append": "devxcrew-tools changelog:append",
-    "changelog:show": "devxcrew-tools changelog:show",
-    "tools:lines:fix": "devxcrew-tools lines:fix",
-    "lines:check": "devxcrew-tools lines:check",
-    "tools:check": "devxcrew-tools dependencies:order && devxcrew-tools check:versions && devxcrew-tools lines:check",
-    "mcp:connect": "node assist/mcp-connect.mjs",
-    "mcp:verify": "node assist/mcp-connect.mjs --strict"
+    "version:update": "node ../../shared/mcp-governance/client/repository.mjs version:bump",
+    "version:show": "node ../../shared/mcp-governance/client/repository.mjs version:show",
+    "changelog:append": "node ../../shared/mcp-governance/client/repository.mjs changelog:append",
+    "changelog:show": "node ../../shared/mcp-governance/client/repository.mjs changelog:show",
+    "tools:lines:fix": "node ../../shared/mcp-governance/client/repository.mjs lines:fix",
+    "lines:check": "node ../../shared/mcp-governance/client/repository.mjs lines:check",
+    "tools:check": "devxcrew-tools dependencies:order && node ../../shared/mcp-governance/client/repository.mjs check:versions && devxcrew-tools lines:check",
+    "mcp:connect": "node agent/connect.mjs",
+    "mcp:verify": "node agent/connect.mjs --strict",
+    "version-bump": "node ../../shared/mcp-governance/client/repository.mjs version:bump"
   },
   "engines": {
     "node": ">=20"

@@ -1,8 +1,12 @@
-# UIUX Developer Gallery
+# uiux
 
-UIUX runs separately from Cxsun and previews the public components, blocks, layouts, pages, and templates in D:\codexsun\shared\ui. It has no backend, login requirement, or database.
+Own the separate developer gallery. Use shared UI exports. Keep business and database code outside this repository.
 
-From D:\codexsun\devkits\uiux:
+Gallery URL: http://127.0.0.1:6102. Configure the gallery in web/.app.env. Reusable UI comes from @codexsun/ui.
+
+## Run
+
+Use Node 26.10 or newer and the package manifest requirements. Clone the sibling tools and mcp-governance repositories along with this repository.
 
 ```powershell
 npm install
@@ -10,30 +14,23 @@ npm run verify
 npm run dev
 ```
 
-Open http://127.0.0.1:6102/. Cxsun runs independently on port 5173.
+## Guidance and agent records
 
-The web workspace links @codexsun/ui through file:../../../shared/ui. The install hook installs shared UI dependencies. Configure WEB_HOST and WEB_PORT in web/.app.env; defaults are 127.0.0.1 and 6102. Keep this local file out of Git. web/.app.env.example contains the template.
+Common guidance and audit reports live only in ../../shared/mcp-governance/assist. This repository has no assist folder. Read AGENT.md and agent/SKILLS.md, TASK.md, PLAN.md, and CHANGELOG.md. AGENTS.md is an agent discovery pointer.
 
-Gallery code belongs in web/src/modules/gallery. Shared components are imported through the public UI package exports. npm run build writes the standalone frontend to dist; npm run preview --workspace @codexsun/uiux-web serves that build.
+Configure MCP_SERVER_URL, MCP_SERVER_SECRET, APP_ID, and APP_USER through .env.example. Keep the secret in ignored .env. Run npm run mcp:connect to retrieve instructions or npm run mcp:verify for a strict connection test. Connection failures do not gate application work. Editor registration uses the central connection template and remains client-specific.
 
-## Common maintenance commands
-
-All repositories use the installed @devxcrew/tools package through these root scripts:
+## Maintenance
 
 ```powershell
-npm run tools:check
-npm run version:show
-npm run version:update -- --dry-run
+npm run version-bump -- --dry-run
+npm run version-bump -- --title "Release title" --note "Change details"
 npm run check:versions
-npm run changelog:show
-npm run changelog:append -- --title "Change title" --note "Change details"
-npm run lines:check
 npm run fix:line-endings
+npm run lines:check
 npm run github:now -- --dry-run
 ```
 
-Version updates and changelog appends change local files. github:now without --dry-run can commit and push after its review prompts. Reusable UI and framework packages keep their package-specific build contracts; the gallery keeps its standalone Vite workspace.
+Version bumps update package.json, package-lock.json, and agent/CHANGELOG.md. Record changes and validation before committing. The commit subject is #<patch> - <release title>, for example #4 - Common MCP governance guidance. Review the files before an authorized npm run github:now. Do not bump again during GitHub review if the release version is already updated.
 
-## Common governance MCP
-
-Use npm run mcp:connect for read-only repository, UI, and code guidance. It continues offline using the guides in assist/governance. Configure the connection through .env.example. See assist/GOVERNANCE.md for headers and client setup. This command is independent of application startup and verification.
+The workspace maintenance entry point delegates to shared/tools. The installed npm tools version remains pinned at 0.1.3 until a release with agent changelog support is published. GitHub source releases use github:now. Npm publication requires separate authorization.

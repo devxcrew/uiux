@@ -1,7 +1,7 @@
 {
   "name": "@codexsun/uiux",
   "private": true,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "workspaces": [
     "web"
@@ -26,7 +26,9 @@
     "changelog:show": "devxcrew-tools changelog:show",
     "tools:lines:fix": "devxcrew-tools lines:fix",
     "lines:check": "devxcrew-tools lines:check",
-    "tools:check": "devxcrew-tools dependencies:order && devxcrew-tools check:versions && devxcrew-tools lines:check"
+    "tools:check": "devxcrew-tools dependencies:order && devxcrew-tools check:versions && devxcrew-tools lines:check",
+    "mcp:connect": "node assist/mcp-connect.mjs",
+    "mcp:verify": "node assist/mcp-connect.mjs --strict"
   },
   "engines": {
     "node": ">=20"

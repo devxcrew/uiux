@@ -1,8 +1,6 @@
 # UIUX Changelog
 
-Current version: 0.1.0
-Release tag: v-0.1.0
-Changelog label: v 0.1.0
+Current version: 0.1.0 Release tag: v-0.1.0 Changelog label: v 0.1.0
 
 ## v-0.1.0
 

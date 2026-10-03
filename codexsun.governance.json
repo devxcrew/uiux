@@ -1,9 +1,31 @@
 {
-  "governanceRepository": "https://github.com/CODEXSUN/mcp-governance.git",
-  "governanceRef": "main",
-  "connection": "github-source",
-  "privateRepository": true,
-  "mcpServer": "codexsun-mcp-governance",
-  "localPathAccess": false,
-  "contractVersion": "0.1.0"
+  "contractVersion": 1,
+  "appId": "uiux",
+  "kind": "developer-gallery",
+  "guidance": "https://mcp.codexsun.com/mcp",
+  "connection": {
+    "urlEnvironment": "MCP_SERVER_URL",
+    "secretEnvironment": "MCP_SERVER_SECRET",
+    "policy": "required-live-guidance",
+    "offline": "stop-and-report",
+    "defaultUrl": "https://mcp.codexsun.com/mcp"
+  },
+  "audit": {
+    "required": true,
+    "task": "agent/TASK.md",
+    "evidence": "agent/AUDIT.md"
+  },
+  "actionClasses": [
+    "inspect",
+    "edit",
+    "dependencies",
+    "test",
+    "release",
+    "operations"
+  ],
+  "authorization": "user-instructions",
+  "foundation": {
+    "identityRequired": false,
+    "status": "developer-gallery"
+  }
 }

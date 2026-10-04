@@ -10,7 +10,7 @@ Source 0.1.8 passed lint, two form tests, production build and enforced bundle b
 
 npm run verify passed lint, types, two form tests, build and all JavaScript/CSS budgets.
 - [x] Prepare isolated CI coverage for the target Windows/Linux/macOS runtime.
-- [ ] Verify this wave's exact GitHub CI results.
+- [x] Verify Windows/Linux/macOS CI: run 37202032805.
 
 
 Use projects/cxsun/agent/REMAINING-WORK.md for ordered cross-owner dependencies.
@@ -43,7 +43,8 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
 
 - [ ] **06.04 Verify gallery interactions and performance** - in-review. Owner: uiux.
   - [x] 06.04.1 Typecheck and production build pass.
-  - [ ] 06.04.2 Accept gallery interaction, lint/behavior and entry/deferred budgets.
+  - [x] 06.04.2a Accept gallery lint, form tests and JavaScript/CSS budgets.
+  - [ ] 06.04.2b Accept interactive gallery behavior and accessibility.
 
 <!-- foundation-checklist:end -->
 

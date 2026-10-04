@@ -2,9 +2,9 @@ import { useState } from 'react'
 import {
   PaymentMethodSelector,
   type SavedCard,
-} from '@codexsun/ui/blocks/ecommerce/payment-methods'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+} from '@devxcrew/react-ui/blocks/ecommerce/payment-methods'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleCards: SavedCard[] = [
   {
@@ -34,12 +34,12 @@ export function UiPaymentMethodsDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { PaymentMethodSelector } from '@codexsun/ui/blocks/ecommerce/payment-methods'
+      code={`import { PaymentMethodSelector } from '@devxcrew/react-ui/blocks/ecommerce/payment-methods'
 
 export function PaymentOptions({ savedCards }) {
   return <PaymentMethodSelector savedCards={savedCards} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/payment-methods"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/payment-methods"
       kind="Block"
       name="Payment Methods"
       navigation={{

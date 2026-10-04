@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { ReviewsSection, type CustomerReview } from '@codexsun/ui/blocks/ecommerce/reviews'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { ReviewsSection, type CustomerReview } from '@devxcrew/react-ui/blocks/ecommerce/reviews'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleReviews: CustomerReview[] = [
   {
@@ -44,12 +44,12 @@ export function UiReviewsDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { ReviewsSection } from '@codexsun/ui/blocks/ecommerce/reviews'
+      code={`import { ReviewsSection } from '@devxcrew/react-ui/blocks/ecommerce/reviews'
 
 export function ProductReviews({ reviews, averageRating, distribution }) {
   return <ReviewsSection reviews={reviews} averageRating={averageRating} distribution={distribution} totalReviews={100} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/reviews"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/reviews"
       kind="Block"
       name="Reviews & Ratings"
       navigation={{

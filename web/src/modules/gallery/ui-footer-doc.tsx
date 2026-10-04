@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { SiteFooter } from '@codexsun/ui/blocks/footer'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { SiteFooter } from '@devxcrew/react-ui/blocks/footer'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 export function UiFooterDocumentation() {
   const topology = useMdiTopology()
@@ -9,12 +9,12 @@ export function UiFooterDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { SiteFooter } from '@codexsun/ui/blocks/footer'
+      code={`import { SiteFooter } from '@devxcrew/react-ui/blocks/footer'
 
 export function Footer() {
   return <SiteFooter brand={{ title: 'CodexMart' }} />
 }`}
-      importPath="@codexsun/ui/blocks/footer"
+      importPath="@devxcrew/react-ui/blocks/footer"
       kind="Block"
       name="Site Footer"
       navigation={{

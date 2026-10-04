@@ -5,11 +5,11 @@ import {
   WorkspacePublishStatus,
   WorkspaceRouteChecklist,
   WorkspaceRuntimeStatus,
-} from "@codexsun/ui/blocks/workspace";
-import { MermaidPreview } from "@codexsun/ui/blocks/mermaid-preview";
-import type { DesignSystemAssetManifest } from "@codexsun/ui/design-system";
-import { useMdiTopology } from "@codexsun/ui/layouts/mdi-main";
-import { UiTemplatePage } from "@codexsun/ui/templates/ui-page";
+} from "@devxcrew/react-ui/blocks/workspace";
+import { MermaidPreview } from "@devxcrew/react-ui/blocks/mermaid-preview";
+import type { DesignSystemAssetManifest } from "@devxcrew/react-ui/design-system";
+import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
 import type { UiBlockDoc } from "./ui-blocks";
 
 export function UiRegistryBlockDocumentation({
@@ -63,7 +63,7 @@ function codeForBlock(block: UiBlockDoc) {
     return `import { WorkspaceRuntimeStatus, WorkspaceHealthSummary, WorkspacePublishStatus, WorkspaceRouteChecklist } from '${block.source}'`;
   }
   if (block.id === "workspace-entity-card") return `import { WorkspaceEntityCard } from '${block.source}'`;
-  if (block.id === "mermaid-preview") return `import { MermaidPreview } from '@codexsun/ui/blocks/mermaid-preview'`;
+  if (block.id === "mermaid-preview") return `import { MermaidPreview } from '@devxcrew/react-ui/blocks/mermaid-preview'`;
   return `// Compose the package-owned ${block.name} block from '${block.source}'.`;
 }
 

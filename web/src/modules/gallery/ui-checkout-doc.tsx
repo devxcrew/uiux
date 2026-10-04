@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { CheckoutWizard, type CheckoutItemSummary } from '@codexsun/ui/blocks/ecommerce/checkout'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { CheckoutWizard, type CheckoutItemSummary } from '@devxcrew/react-ui/blocks/ecommerce/checkout'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleItems: CheckoutItemSummary[] = [
   {
@@ -26,12 +26,12 @@ export function UiCheckoutDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { CheckoutWizard } from '@codexsun/ui/blocks/ecommerce/checkout'
+      code={`import { CheckoutWizard } from '@devxcrew/react-ui/blocks/ecommerce/checkout'
 
 export function Checkout({ items, subtotal }) {
   return <CheckoutWizard items={items} subtotal={subtotal} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/checkout"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/checkout"
       kind="Block"
       name="Checkout Wizard"
       navigation={{

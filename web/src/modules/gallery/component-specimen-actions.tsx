@@ -5,17 +5,17 @@ import {
   ShieldAlert,
   Sparkles,
 } from 'lucide-react'
-import { Alert, AlertTitle } from '@codexsun/ui/components/alert'
+import { Alert, AlertTitle } from '@devxcrew/react-ui/components/alert'
 import {
   Attachment,
   AttachmentContent,
   AttachmentDescription,
   AttachmentMedia,
   AttachmentTitle,
-} from '@codexsun/ui/components/attachment'
-import { Bubble, BubbleContent, BubbleGroup, BubbleReactions } from '@codexsun/ui/components/bubble'
-import { Button } from '@codexsun/ui/components/button'
-import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from '@codexsun/ui/components/empty'
+} from '@devxcrew/react-ui/components/attachment'
+import { Bubble, BubbleContent, BubbleGroup, BubbleReactions } from '@devxcrew/react-ui/components/bubble'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from '@devxcrew/react-ui/components/empty'
 import {
   Message,
   MessageAvatar,
@@ -23,21 +23,21 @@ import {
   MessageFooter,
   MessageGroup,
   MessageHeader,
-} from '@codexsun/ui/components/message'
+} from '@devxcrew/react-ui/components/message'
 import {
   MessageScroller,
   MessageScrollerContent,
   MessageScrollerItem,
   MessageScrollerProvider,
   MessageScrollerViewport,
-} from '@codexsun/ui/components/message-scroller'
-import { Progress, ProgressLabel, ProgressValue } from '@codexsun/ui/components/progress'
-import { Skeleton } from '@codexsun/ui/components/skeleton'
-import { Spinner } from '@codexsun/ui/components/spinner'
-import { Toaster as Sonner } from '@codexsun/ui/components/sonner'
-import { toast, Toaster as ToastHost } from '@codexsun/ui/components/toast'
-import { Toggle } from '@codexsun/ui/components/toggle'
-import { ToggleGroup, ToggleGroupItem } from '@codexsun/ui/components/toggle-group'
+} from '@devxcrew/react-ui/components/message-scroller'
+import { Progress, ProgressLabel, ProgressValue } from '@devxcrew/react-ui/components/progress'
+import { Skeleton } from '@devxcrew/react-ui/components/skeleton'
+import { Spinner } from '@devxcrew/react-ui/components/spinner'
+import { Toaster as Sonner } from '@devxcrew/react-ui/components/sonner'
+import { toast, Toaster as ToastHost } from '@devxcrew/react-ui/components/toast'
+import { Toggle } from '@devxcrew/react-ui/components/toggle'
+import { ToggleGroup, ToggleGroupItem } from '@devxcrew/react-ui/components/toggle-group'
 import { ButtonGroupVariantSpecimen } from './component-specimen-button-groups'
 import { ButtonVariantSpecimen } from './component-specimen-buttons'
 import { SpecimenStage } from './component-specimen-stage'

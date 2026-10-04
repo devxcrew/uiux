@@ -3,10 +3,10 @@ import {
   TopologyInspector,
   useInterfaceTopology,
   type InterfaceTopologyController,
-} from "@codexsun/ui/features/interface-topology";
-import { Button } from "@codexsun/ui/components/button";
-import { mdiTopologySections, useMdiTopology } from "@codexsun/ui/layouts/mdi-main";
-import { UiTemplatePage } from "@codexsun/ui/templates/ui-page";
+} from "@devxcrew/react-ui/features/interface-topology";
+import { Button } from "@devxcrew/react-ui/components/button";
+import { mdiTopologySections, useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
 import { UiLayoutPreview } from "./ui-layout-preview";
 import { uiLayoutDocs, type UiLayoutDoc } from "./ui-layouts";
 

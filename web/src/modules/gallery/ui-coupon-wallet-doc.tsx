@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { CouponWallet, type StoreCoupon } from '@codexsun/ui/blocks/ecommerce/coupon-wallet'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { CouponWallet, type StoreCoupon } from '@devxcrew/react-ui/blocks/ecommerce/coupon-wallet'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleCoupons: StoreCoupon[] = [
   {
@@ -40,12 +40,12 @@ export function UiCouponWalletDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { CouponWallet } from '@codexsun/ui/blocks/ecommerce/coupon-wallet'
+      code={`import { CouponWallet } from '@devxcrew/react-ui/blocks/ecommerce/coupon-wallet'
 
 export function Vouchers({ coupons }) {
   return <CouponWallet coupons={coupons} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/coupon-wallet"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/coupon-wallet"
       kind="Block"
       name="Coupon Wallet"
       navigation={{

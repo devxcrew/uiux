@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Button } from "@codexsun/ui/components/button";
-import { SiteHeader, type SiteHeaderCategory, type SiteHeaderNavLink } from "@codexsun/ui/layouts/site-header";
-import { useMdiTopology } from "@codexsun/ui/layouts/mdi-main";
-import { UiTemplatePage } from "@codexsun/ui/templates/ui-page";
+import { Button } from "@devxcrew/react-ui/components/button";
+import { SiteHeader, type SiteHeaderCategory, type SiteHeaderNavLink } from "@devxcrew/react-ui/layouts/site-header";
+import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
 
 const sampleLinks: readonly SiteHeaderNavLink[] = [
   { href: "#products", label: "Products", badge: "New" },
@@ -19,7 +19,7 @@ const sampleCategories: readonly SiteHeaderCategory[] = [
   { href: "#accessories", id: "accessories", label: "Accessories" },
 ];
 
-const headerCode = `import { SiteHeader } from '@codexsun/ui/layouts/site-header'
+const headerCode = `import { SiteHeader } from '@devxcrew/react-ui/layouts/site-header'
 
 export function StorefrontHeader() {
   return (
@@ -57,7 +57,7 @@ export function UiSiteHeaderDocumentation() {
   return (
     <UiTemplatePage
       code={headerCode}
-      importPath="@codexsun/ui/layouts/site-header"
+      importPath="@devxcrew/react-ui/layouts/site-header"
       kind="Static Page"
       name="Site Header"
       navigation={{

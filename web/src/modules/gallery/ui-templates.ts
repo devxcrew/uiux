@@ -1,4 +1,4 @@
-import { designSystemTemplates } from '@codexsun/ui/design-system';
+import { designSystemTemplates } from '@devxcrew/react-ui/design-system';
 
 export const uiTemplateDocs = designSystemTemplates.map(({ defaultVariantId, id, name, source, variants }) => ({
   defaultVariantId,

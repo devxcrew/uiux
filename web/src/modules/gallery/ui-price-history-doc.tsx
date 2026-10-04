@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { PriceHistoryChart, type PriceDataPoint } from '@codexsun/ui/blocks/ecommerce/price-history'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { PriceHistoryChart, type PriceDataPoint } from '@devxcrew/react-ui/blocks/ecommerce/price-history'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleHistory: PriceDataPoint[] = [
   { date: 'May 1', price: 249 },
@@ -18,12 +18,12 @@ export function UiPriceHistoryDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { PriceHistoryChart } from '@codexsun/ui/blocks/ecommerce/price-history'
+      code={`import { PriceHistoryChart } from '@devxcrew/react-ui/blocks/ecommerce/price-history'
 
 export function PriceTrends({ history, currentPrice }) {
   return <PriceHistoryChart history={history} currentPrice={currentPrice} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/price-history"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/price-history"
       kind="Block"
       name="Price History Tracker"
       navigation={{

@@ -3,7 +3,7 @@ import {
   designSystemComponents,
   type DesignSystemCategory,
   type DesignSystemComponentDefinition,
-} from '@codexsun/ui/design-system'
+} from '@devxcrew/react-ui/design-system'
 
 export type GalleryCategory = DesignSystemCategory
 export type GalleryComponent = Pick<DesignSystemComponentDefinition, 'category' | 'name' | 'source'>

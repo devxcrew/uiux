@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { ProductCard, type ProductItem } from '@codexsun/ui/blocks/product-card'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { ProductCard, type ProductItem } from '@devxcrew/react-ui/blocks/product-card'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleProducts: readonly ProductItem[] = [
   {
@@ -58,7 +58,7 @@ const sampleProducts: readonly ProductItem[] = [
   },
 ]
 
-const productCardCode = `import { ProductCard, type ProductItem } from '@codexsun/ui/blocks/product-card'
+const productCardCode = `import { ProductCard, type ProductItem } from '@devxcrew/react-ui/blocks/product-card'
 
 export function ProductGrid({ products }: { products: ProductItem[] }) {
   return (
@@ -85,7 +85,7 @@ export function UiProductCardDocumentation() {
   return (
     <UiTemplatePage
       code={productCardCode}
-      importPath="@codexsun/ui/blocks/product-card"
+      importPath="@devxcrew/react-ui/blocks/product-card"
       kind="Block"
       name="Product Card"
       navigation={{

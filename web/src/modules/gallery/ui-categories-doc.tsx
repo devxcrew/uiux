@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { HeadphonesIcon, LaptopIcon, ShirtIcon, WatchIcon } from 'lucide-react'
-import { Button } from '@codexsun/ui/components/button'
-import { CategoryShowcase, type StoreCategoryCard } from '@codexsun/ui/blocks/ecommerce/categories'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { CategoryShowcase, type StoreCategoryCard } from '@devxcrew/react-ui/blocks/ecommerce/categories'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleCategories: StoreCategoryCard[] = [
   {
@@ -58,12 +58,12 @@ export function UiCategoriesDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { CategoryShowcase } from '@codexsun/ui/blocks/ecommerce/categories'
+      code={`import { CategoryShowcase } from '@devxcrew/react-ui/blocks/ecommerce/categories'
 
 export function CatalogCategories({ categories }) {
   return <CategoryShowcase categories={categories} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/categories"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/categories"
       kind="Block"
       name="Categories Showcase"
       navigation={{

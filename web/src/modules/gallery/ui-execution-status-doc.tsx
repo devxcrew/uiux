@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { ExecutionStatus, type ExecutionStatusProps } from '@codexsun/ui/blocks/execution-status'
-import { Button } from '@codexsun/ui/components/button'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { ExecutionStatus, type ExecutionStatusProps } from '@devxcrew/react-ui/blocks/execution-status'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 export function UiExecutionStatusDocumentation() {
   const topology = useMdiTopology()
@@ -12,11 +12,11 @@ export function UiExecutionStatusDocumentation() {
     <UiTemplatePage
       name="Execution Status"
       kind="Block"
-      importPath="@codexsun/ui/blocks/execution-status"
+      importPath="@devxcrew/react-ui/blocks/execution-status"
       topology={topology}
       topologyIds={{ page: '26', preview: '26.1', usage: '26.2' }}
       navigation={{ previous: { href: '/?block=form', name: 'Form' } }}
-      code={`import { ExecutionStatus } from '@codexsun/ui/blocks/execution-status'
+      code={`import { ExecutionStatus } from '@devxcrew/react-ui/blocks/execution-status'
 
 <ExecutionStatus state="active" title="Execution in progress"
   description="Observed state, not estimated completion" elapsed="24s"

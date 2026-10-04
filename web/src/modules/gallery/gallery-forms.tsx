@@ -1,26 +1,26 @@
 import { Mail, Search } from 'lucide-react'
 import { useState } from 'react'
-import { Calendar } from '@codexsun/ui/components/calendar'
-import { Checkbox } from '@codexsun/ui/components/checkbox'
-import { Field, FieldDescription, FieldGroup, FieldLabel } from '@codexsun/ui/components/field'
-import { Input } from '@codexsun/ui/components/input'
-import { InputGroup, InputGroupAddon, InputGroupInput } from '@codexsun/ui/components/input-group'
-import { InputOTP, InputOTPGroup, InputOTPSlot } from '@codexsun/ui/components/input-otp'
-import { Label } from '@codexsun/ui/components/label'
-import { NativeSelect, NativeSelectOption } from '@codexsun/ui/components/native-select'
-import { RadioGroup, RadioGroupItem } from '@codexsun/ui/components/radio-group'
+import { Calendar } from '@devxcrew/react-ui/components/calendar'
+import { Checkbox } from '@devxcrew/react-ui/components/checkbox'
+import { Field, FieldDescription, FieldGroup, FieldLabel } from '@devxcrew/react-ui/components/field'
+import { Input } from '@devxcrew/react-ui/components/input'
+import { InputGroup, InputGroupAddon, InputGroupInput } from '@devxcrew/react-ui/components/input-group'
+import { InputOTP, InputOTPGroup, InputOTPSlot } from '@devxcrew/react-ui/components/input-otp'
+import { Label } from '@devxcrew/react-ui/components/label'
+import { NativeSelect, NativeSelectOption } from '@devxcrew/react-ui/components/native-select'
+import { RadioGroup, RadioGroupItem } from '@devxcrew/react-ui/components/radio-group'
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@codexsun/ui/components/select'
-import { Slider } from '@codexsun/ui/components/slider'
-import { Switch } from '@codexsun/ui/components/switch'
-import { Textarea } from '@codexsun/ui/components/textarea'
-import { Toggle } from '@codexsun/ui/components/toggle'
-import { ToggleGroup, ToggleGroupItem } from '@codexsun/ui/components/toggle-group'
+} from '@devxcrew/react-ui/components/select'
+import { Slider } from '@devxcrew/react-ui/components/slider'
+import { Switch } from '@devxcrew/react-ui/components/switch'
+import { Textarea } from '@devxcrew/react-ui/components/textarea'
+import { Toggle } from '@devxcrew/react-ui/components/toggle'
+import { ToggleGroup, ToggleGroupItem } from '@devxcrew/react-ui/components/toggle-group'
 import { GalleryCard } from './gallery-card'
 
 export function GalleryForms() {

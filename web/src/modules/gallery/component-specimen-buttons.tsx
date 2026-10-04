@@ -1,7 +1,7 @@
 import { ArrowRight, ChevronDown, LoaderCircle, Plus, Star } from 'lucide-react'
-import { Button } from '@codexsun/ui/components/button'
-import { ButtonGroup } from '@codexsun/ui/components/button-group'
-import { Tooltip, TooltipContent, TooltipTrigger } from '@codexsun/ui/components/tooltip'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { ButtonGroup } from '@devxcrew/react-ui/components/button-group'
+import { Tooltip, TooltipContent, TooltipTrigger } from '@devxcrew/react-ui/components/tooltip'
 export function ButtonVariantSpecimen() {
   return (
     <div className="grid w-full grid-cols-2 place-items-center gap-x-4 gap-y-5 bg-muted/20 p-6 sm:grid-cols-3 xl:grid-cols-5">

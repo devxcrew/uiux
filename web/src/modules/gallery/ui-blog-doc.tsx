@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { Button } from '@codexsun/ui/components/button'
-import { BlogCard, BlogReader, type BlogPostArticle } from '@codexsun/ui/blocks/blog'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { BlogCard, BlogReader, type BlogPostArticle } from '@devxcrew/react-ui/blocks/blog'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleArticle: BlogPostArticle = {
   author: {
@@ -70,12 +70,12 @@ export function UiBlogDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { BlogCard, BlogReader } from '@codexsun/ui/blocks/blog'
+      code={`import { BlogCard, BlogReader } from '@devxcrew/react-ui/blocks/blog'
 
 export function EditorialArticle({ article }) {
   return <BlogReader article={article} />
 }`}
-      importPath="@codexsun/ui/blocks/blog"
+      importPath="@devxcrew/react-ui/blocks/blog"
       kind="Block"
       name="Blog & Editorial"
       navigation={{
@@ -127,7 +127,7 @@ export function EditorialArticle({ article }) {
                   <p>
                     By extracting decoupled blocks—such as storefront carts, delivery trackers,
                     comparison matrices, and editorial readers—into a package-owned design system
-                    (`@codexsun/ui`), applications retain control over business state while UI
+                    (`@devxcrew/react-ui`), applications retain control over business state while UI
                     primitives remain strictly reusable and testable.
                   </p>
                   <h3 id="bundle-budget" className="text-base font-semibold text-foreground pt-2">

@@ -16,6 +16,6 @@ export default defineConfig(() => {
     resolve: { dedupe: ["react", "react-dom"], alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) } },
     server: { host, port, strictPort: true, fs: { allow: [fileURLToPath(new URL("../../../", import.meta.url))] } },
     preview: { host, port, strictPort: true },
-    build: { outDir: "../dist", emptyOutDir: true, chunkSizeWarningLimit: 1500 },
+    build: { manifest: true, outDir: "../dist", emptyOutDir: true, chunkSizeWarningLimit: 1500 },
   };
 });

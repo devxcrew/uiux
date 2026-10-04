@@ -4,16 +4,16 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@codexsun/ui/components/accordion'
-import { Alert, AlertDescription, AlertTitle } from '@codexsun/ui/components/alert'
-import { AspectRatio } from '@codexsun/ui/components/aspect-ratio'
+} from '@devxcrew/react-ui/components/accordion'
+import { Alert, AlertDescription, AlertTitle } from '@devxcrew/react-ui/components/alert'
+import { AspectRatio } from '@devxcrew/react-ui/components/aspect-ratio'
 import {
   Avatar,
   AvatarFallback,
   AvatarGroup,
   AvatarGroupCount,
-} from '@codexsun/ui/components/avatar'
-import { Badge } from '@codexsun/ui/components/badge'
+} from '@devxcrew/react-ui/components/avatar'
+import { Badge } from '@devxcrew/react-ui/components/badge'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -21,19 +21,19 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@codexsun/ui/components/breadcrumb'
-import { Bubble, BubbleContent, BubbleGroup, BubbleReactions } from '@codexsun/ui/components/bubble'
-import { Button } from '@codexsun/ui/components/button'
-import { ButtonGroup } from '@codexsun/ui/components/button-group'
+} from '@devxcrew/react-ui/components/breadcrumb'
+import { Bubble, BubbleContent, BubbleGroup, BubbleReactions } from '@devxcrew/react-ui/components/bubble'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { ButtonGroup } from '@devxcrew/react-ui/components/button-group'
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@codexsun/ui/components/collapsible'
-import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from '@codexsun/ui/components/empty'
-import { Kbd, KbdGroup } from '@codexsun/ui/components/kbd'
-import { Marker, MarkerContent, MarkerIcon } from '@codexsun/ui/components/marker'
-import { Separator } from '@codexsun/ui/components/separator'
+} from '@devxcrew/react-ui/components/collapsible'
+import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from '@devxcrew/react-ui/components/empty'
+import { Kbd, KbdGroup } from '@devxcrew/react-ui/components/kbd'
+import { Marker, MarkerContent, MarkerIcon } from '@devxcrew/react-ui/components/marker'
+import { Separator } from '@devxcrew/react-ui/components/separator'
 import { GalleryCard } from './gallery-card'
 
 export function GalleryFoundations() {

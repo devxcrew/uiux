@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { WishlistGrid, type WishlistItem } from '@codexsun/ui/blocks/ecommerce/wishlist'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { WishlistGrid, type WishlistItem } from '@devxcrew/react-ui/blocks/ecommerce/wishlist'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleWishlist: WishlistItem[] = [
   {
@@ -39,12 +39,12 @@ export function UiWishlistDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { WishlistGrid } from '@codexsun/ui/blocks/ecommerce/wishlist'
+      code={`import { WishlistGrid } from '@devxcrew/react-ui/blocks/ecommerce/wishlist'
 
 export function SavedItems({ items }) {
   return <WishlistGrid items={items} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/wishlist"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/wishlist"
       kind="Block"
       name="Wishlist Grid"
       navigation={{

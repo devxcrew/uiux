@@ -3,7 +3,7 @@
 ## Ownership
 
 Work from `D:\codexsun\devkits\uiux`. Read `AGENTS.md` and `agent/SKILLS.md` before edits. Gallery
-code belongs here. Reusable components belong to `shared/ui` and use public `@codexsun/ui` exports.
+code belongs here. Reusable components belong to `shared/ui` and use public `@devxcrew/react-ui` exports.
 Keep business APIs, identity, storage, and databases outside the gallery.
 
 ## Run

@@ -13,10 +13,10 @@ export const uiLayoutDocs: readonly UiLayoutDoc[] = [
   {
     id: "mdi",
     name: "MDI",
-    packageName: "@codexsun/ui/layouts/mdi",
+    packageName: "@devxcrew/react-ui/layouts/mdi",
     summary: "Plain workspace surface with a centered label.",
     description: "Use MDI for a minimal workspace surface without application shell chrome.",
-    code: `import { Mdi } from '@codexsun/ui/layouts/mdi'
+    code: `import { Mdi } from '@devxcrew/react-ui/layouts/mdi'
 
 export function EmptySurface() {
   return <Mdi label="MDI" />
@@ -25,12 +25,12 @@ export function EmptySurface() {
   {
     id: "main-workspace",
     name: "Main Workspace",
-    packageName: "@codexsun/ui/layouts/main-workspace",
+    packageName: "@devxcrew/react-ui/layouts/main-workspace",
     summary: "Application shell with a command bar, navigation rail, canvas, and status surface.",
     description:
       "Use Main Workspace as the shared application base. Applications provide identity, navigation, workspace content, and feature data through public properties.",
     code: `import { LayoutDashboardIcon, ReceiptTextIcon } from 'lucide-react'
-import { MainWorkspace } from '@codexsun/ui/layouts/main-workspace'
+import { MainWorkspace } from '@devxcrew/react-ui/layouts/main-workspace'
 
 const navigation = [
   {
@@ -63,12 +63,12 @@ export function ApplicationShell() {
   {
     id: "documentation-workspace",
     name: "Documentation Workspace",
-    packageName: "@codexsun/ui/layouts/documentation-workspace",
+    packageName: "@devxcrew/react-ui/layouts/documentation-workspace",
     summary: "Documentation shell with searchable navigation and a focused reading canvas.",
     description:
       "Use Documentation Workspace for repository guides, knowledge bases, and manuals. Applications provide document navigation, content, editing, and persistence.",
     code: `import { FileTextIcon, FolderTreeIcon } from 'lucide-react'
-import { DocumentationWorkspace } from '@codexsun/ui/layouts/documentation-workspace'
+import { DocumentationWorkspace } from '@devxcrew/react-ui/layouts/documentation-workspace'
 
 const navigation = [
   {
@@ -93,7 +93,7 @@ export function ProductDocs() {
   {
     id: "agent-workspace",
     name: "Agent Workspace",
-    packageName: "@codexsun/ui/layouts/agent-workspace",
+    packageName: "@devxcrew/react-ui/layouts/agent-workspace",
     summary: "Agent canvas with fixed primary and secondary icon activity rails.",
     description:
       "Use Agent Workspace inside Main Workspace when an agent needs persistent tools on both sides of a focused center canvas.",
@@ -105,8 +105,8 @@ export function ProductDocs() {
   SettingsIcon,
   SlidersHorizontalIcon,
 } from 'lucide-react'
-import type { AgentWorkspaceRail } from '@codexsun/ui/layouts/agent-workspace'
-import { MainWorkspace } from '@codexsun/ui/layouts/main-workspace'
+import type { AgentWorkspaceRail } from '@devxcrew/react-ui/layouts/agent-workspace'
+import { MainWorkspace } from '@devxcrew/react-ui/layouts/main-workspace'
 
 const primaryRail: AgentWorkspaceRail = {
   label: 'Agent activities',

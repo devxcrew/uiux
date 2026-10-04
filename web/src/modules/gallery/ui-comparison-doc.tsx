@@ -3,9 +3,9 @@ import {
   ProductComparison,
   type ComparisonFeatureGroup,
   type ComparisonProduct,
-} from '@codexsun/ui/blocks/ecommerce/comparison'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+} from '@devxcrew/react-ui/blocks/ecommerce/comparison'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleProducts: ComparisonProduct[] = [
   {
@@ -89,12 +89,12 @@ export function UiComparisonDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { ProductComparison } from '@codexsun/ui/blocks/ecommerce/comparison'
+      code={`import { ProductComparison } from '@devxcrew/react-ui/blocks/ecommerce/comparison'
 
 export function SpecComparison({ products, featureGroups }) {
   return <ProductComparison products={products} featureGroups={featureGroups} />
 }`}
-      importPath="@codexsun/ui/blocks/ecommerce/comparison"
+      importPath="@devxcrew/react-ui/blocks/ecommerce/comparison"
       kind="Block"
       name="Product Comparison"
       navigation={{

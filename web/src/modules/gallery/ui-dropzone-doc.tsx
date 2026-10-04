@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Dropzone, type DropzoneFile } from '@codexsun/ui/blocks/dropzone'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+import { Dropzone, type DropzoneFile } from '@devxcrew/react-ui/blocks/dropzone'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const initialFiles: readonly DropzoneFile[] = [
   {
@@ -30,7 +30,7 @@ const initialFiles: readonly DropzoneFile[] = [
 ]
 
 const dropzoneCode = `import { useState } from 'react'
-import { Dropzone, type DropzoneFile } from '@codexsun/ui/blocks/dropzone'
+import { Dropzone, type DropzoneFile } from '@devxcrew/react-ui/blocks/dropzone'
 
 export function AssetUploader() {
   const [files, setFiles] = useState<readonly DropzoneFile[]>(stagedFiles)
@@ -105,7 +105,7 @@ export function UiDropzoneDocumentation() {
   return (
     <UiTemplatePage
       code={dropzoneCode}
-      importPath="@codexsun/ui/blocks/dropzone"
+      importPath="@devxcrew/react-ui/blocks/dropzone"
       kind="Block"
       name="File Dropzone"
       navigation={{

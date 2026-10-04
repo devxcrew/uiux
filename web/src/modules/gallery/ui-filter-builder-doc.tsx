@@ -3,9 +3,9 @@ import {
   FilterBuilder,
   type FilterFieldDefinition,
   type FilterGroup,
-} from '@codexsun/ui/blocks/filter-builder'
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main'
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page'
+} from '@devxcrew/react-ui/blocks/filter-builder'
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
 
 const sampleFilterFields: readonly FilterFieldDefinition[] = [
   { id: 'customer_name', label: 'Customer Name', placeholder: 'e.g. Acme Corp', type: 'text' },
@@ -35,7 +35,7 @@ const initialFilterGroup: FilterGroup = {
 }
 
 const filterCode = `import { useState } from 'react'
-import { FilterBuilder, type FilterGroup } from '@codexsun/ui/blocks/filter-builder'
+import { FilterBuilder, type FilterGroup } from '@devxcrew/react-ui/blocks/filter-builder'
 
 export function CustomerFilters() {
   const [filter, setFilter] = useState<FilterGroup>(initialFilter)
@@ -64,7 +64,7 @@ export function UiFilterBuilderDocumentation() {
   return (
     <UiTemplatePage
       code={filterCode}
-      importPath="@codexsun/ui/blocks/filter-builder"
+      importPath="@devxcrew/react-ui/blocks/filter-builder"
       kind="Block"
       name="Filter Builder"
       navigation={{

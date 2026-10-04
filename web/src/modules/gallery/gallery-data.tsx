@@ -4,16 +4,16 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@codexsun/ui/components/carousel'
-import { Progress, ProgressLabel, ProgressValue } from '@codexsun/ui/components/progress'
+} from '@devxcrew/react-ui/components/carousel'
+import { Progress, ProgressLabel, ProgressValue } from '@devxcrew/react-ui/components/progress'
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from '@codexsun/ui/components/resizable'
-import { ScrollArea } from '@codexsun/ui/components/scroll-area'
-import { Skeleton } from '@codexsun/ui/components/skeleton'
-import { Spinner } from '@codexsun/ui/components/spinner'
+} from '@devxcrew/react-ui/components/resizable'
+import { ScrollArea } from '@devxcrew/react-ui/components/scroll-area'
+import { Skeleton } from '@devxcrew/react-ui/components/skeleton'
+import { Spinner } from '@devxcrew/react-ui/components/spinner'
 import {
   Table,
   TableBody,
@@ -21,8 +21,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@codexsun/ui/components/table'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@codexsun/ui/components/tabs'
+} from '@devxcrew/react-ui/components/table'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@devxcrew/react-ui/components/tabs'
 import { GalleryCard } from './gallery-card'
 
 export function GalleryData() {

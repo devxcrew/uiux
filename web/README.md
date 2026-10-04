@@ -4,4 +4,4 @@ This React and Vite workspace owns the UIUX Gallery. It writes production output
 
 The [Gallery module](src/modules/gallery/README.md) owns catalogs, pages, live specimens, examples,
 code samples, routes, navigation, environment, and browser state. It consumes reusable UI through
-public `@codexsun/ui` exports.
+public `@devxcrew/react-ui` exports.

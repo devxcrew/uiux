@@ -13,9 +13,9 @@
   "iconLibrary": "lucide",
   "aliases": {
     "components": "@/components",
-    "utils": "@codexsun/ui/lib/utils",
-    "ui": "@codexsun/ui/components",
+    "utils": "@devxcrew/react-ui/lib/utils",
+    "ui": "@devxcrew/react-ui/components",
     "lib": "@/lib",
-    "hooks": "@codexsun/ui/hooks"
+    "hooks": "@devxcrew/react-ui/hooks"
   }
 }

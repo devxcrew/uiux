@@ -1,7 +1,7 @@
 import {
   designSystemComponents,
   type DesignSystemComponentDefinition,
-} from '@codexsun/ui/design-system'
+} from '@devxcrew/react-ui/design-system'
 
 export type UiComponentDoc = DesignSystemComponentDefinition
 

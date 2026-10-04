@@ -1,7 +1,7 @@
 import { Check, Code2, Copy } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { Badge } from '@codexsun/ui/components/badge'
-import { Button } from '@codexsun/ui/components/button'
+import { Badge } from '@devxcrew/react-ui/components/badge'
+import { Button } from '@devxcrew/react-ui/components/button'
 import {
   Dialog,
   DialogContent,
@@ -9,14 +9,14 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@codexsun/ui/components/dialog'
+} from '@devxcrew/react-ui/components/dialog'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@codexsun/ui/components/tooltip'
-import { UiTemplateCode } from '@codexsun/ui/templates/ui-page'
+} from '@devxcrew/react-ui/components/tooltip'
+import { UiTemplateCode } from '@devxcrew/react-ui/templates/ui-page'
 import { createComponentCode } from './component-code'
 import { ComponentSpecimen } from './component-specimen'
 import type { UiComponentVariant, UiComponentVariantId } from './component-variants'

@@ -1,6 +1,6 @@
-import { StatusBadge, type StatusBadgeValue } from '@codexsun/ui/components/status-badge';
-import { useMdiTopology } from '@codexsun/ui/layouts/mdi-main';
-import { UiTemplatePage } from '@codexsun/ui/templates/ui-page';
+import { StatusBadge, type StatusBadgeValue } from '@devxcrew/react-ui/components/status-badge';
+import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main';
+import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page';
 
 const statuses: StatusBadgeValue[] = [
   'active',
@@ -26,13 +26,13 @@ export function UiStatusTemplate() {
   const topology = useMdiTopology();
   return (
     <UiTemplatePage
-      code={`import { StatusBadge } from '@codexsun/ui/components/status-badge'
+      code={`import { StatusBadge } from '@devxcrew/react-ui/components/status-badge'
 
 <StatusBadge status="active" />
 <StatusBadge status="in-review" />
 <StatusBadge status="complete" />
 <StatusBadge status="planned" />`}
-      importPath="@codexsun/ui/components/status-badge"
+      importPath="@devxcrew/react-ui/components/status-badge"
       kind="Template"
       name="Status Template"
       preview={

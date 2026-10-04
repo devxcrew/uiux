@@ -1,12 +1,12 @@
 import type { ReactNode } from 'react'
-import { Badge } from '@codexsun/ui/components/badge'
+import { Badge } from '@devxcrew/react-ui/components/badge'
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@codexsun/ui/components/card'
+} from '@devxcrew/react-ui/components/card'
 
 export function GalleryCard({
   children,

@@ -155,3 +155,8 @@ User authorization: update versions and changelogs, then commit and push all wor
 Add module-owned TanStack Form and Zod examples, safe field feedback, lint checks and explicit bundle budgets.
 Authenticated MCP connection passed for this owner before release work.
 This delivery covers GitHub source. Npm publication, production deployment and real email acceptance remain separate gates.
+
+## Completion wave evidence - 2026-10-04
+
+npm run verify passed lint, types, two form tests, build and all JavaScript/CSS budgets.
+Authenticated MCP passed before work. New or expanded three-OS CI requires actual remote run evidence. Npm publication and deployed acceptance remain open.

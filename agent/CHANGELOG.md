@@ -10,6 +10,14 @@ Changelog label: v 0.1.8
 
 ## v-0.1.8
 
+### Local completion preparation - 2026-10-04
+
+- Reconcile task status and preserve historical evidence.
+- Add or expand isolated Windows, Linux and macOS source CI.
+- npm run verify passed lint, types, two form tests, build and all JavaScript/CSS budgets.
+- Publication and external acceptance gates remain open.
+
+
 ### [v 0.1.8] 2026-10-04 5:00 pm - Deliver public resource gallery examples
 
 #### Database Changes

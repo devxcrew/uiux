@@ -1,4 +1,22 @@
-# Foundation implementation wave — 2026-10-04
+# Current task
+
+## Completion wave - 2026-10-04
+
+Source 0.1.8 passed lint, two form tests, production build and enforced bundle budgets. Those implementation steps are complete. Browser gallery acceptance and released UI consumption remain open. Three-OS source-gallery CI is added in this wave.
+
+- [x] Reconcile current status with the GitHub source release and latest owner audit.
+- [x] Retrieve fresh authenticated cloud governance before this wave.
+- [x] Record this wave's affected checks and accept only gates with direct evidence.
+
+npm run verify passed lint, types, two form tests, build and all JavaScript/CSS budgets.
+- [x] Prepare isolated CI coverage for the target Windows/Linux/macOS runtime.
+- [ ] Verify this wave's exact GitHub CI results.
+
+
+Use projects/cxsun/agent/REMAINING-WORK.md for ordered cross-owner dependencies.
+Production deployment and real SMTP acceptance remain deferred. No pending external gate is marked complete.
+
+## Prior records
 
 <!-- foundation-checklist:start -->
 

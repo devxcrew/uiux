@@ -2,7 +2,7 @@
 
 ## Completion wave - 2026-10-04
 
-Source 0.1.8 passed lint, two form tests, production build and enforced bundle budgets. Those implementation steps are complete. Browser gallery acceptance and released UI consumption remain open. Three-OS source-gallery CI is added in this wave.
+Source 0.1.8 passed lint, two form tests, production build and enforced bundle budgets. Those implementation steps are complete. Published UI 0.2.0 also passed isolated registry installation and clean-install verification. Browser gallery acceptance remains open. Three-OS source-gallery CI is added in this wave.
 
 - [x] Reconcile current status with the GitHub source release and latest owner audit.
 - [x] Retrieve fresh authenticated cloud governance before this wave.
@@ -24,8 +24,7 @@ Production deployment and real SMTP acceptance remain deferred. No pending exter
 
 Master: [all foundation tasks](D:/codexsun/projects/cxsun/agent/CHECKLIST.md).
 
-Updated: 2026-10-04. Checked steps have recorded local evidence.
-Parents retain incomplete acceptance gates. Mail tests and production deployment are deferred by user.
+Updated: 2026-10-04. Checked steps have recorded evidence. External acceptance stays pending.
 
 ### Phase 01 - Baseline and ownership
 
@@ -45,6 +44,8 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
   - [x] 06.04.1 Typecheck and production build pass.
   - [x] 06.04.2a Accept gallery lint, form tests and JavaScript/CSS budgets.
   - [ ] 06.04.2b Accept interactive gallery behavior and accessibility.
+  - [x] 06.04.2c Verify Windows, Linux and macOS source-gallery CI.
+  - [x] 06.04.2d Verify published UI consumption through isolated registry installation and full gallery verification.
 
 <!-- foundation-checklist:end -->
 
@@ -114,7 +115,7 @@ No application runtime refactor or new infrastructure was added.
 - [x] 06.04.2a Include ESLint and two behavior tests in `npm run verify`.
 - [x] 06.04.2b Enforce production entry, deferred JavaScript and CSS budgets.
 - [ ] 06.04.2c Complete direct-route, keyboard, focus and supported viewport browser acceptance.
-- [ ] 06.04.2d Verify coordinated released UI artifact consumption.
+- [x] 06.04.2d Verify coordinated released UI artifact consumption.
 
 Earlier statements that verify omits lint or tests are historical. The current command includes both.
 ## Workspace GitHub release - 2026-10-04
@@ -123,3 +124,8 @@ Release title: Deliver public resource gallery examples.
 Add module-owned TanStack Form and Zod examples, safe field feedback, lint checks and explicit bundle budgets.
 Update version records, review release checks, then commit and push the current owner branch.
 Preserve existing task history and incomplete acceptance gates.
+
+
+## Registry consumer acceptance - 2026-10-04
+
+Two independent generated apps passed exact registry installation, application verification, module boundaries and live SQLite checks. Cross-app session denial passed. Cxsun three-OS CI passed in run 37204145628. See projects/cxsun/agent/GENERATED-CONSUMERS.json and RELEASE-PACKAGES.json. Browser acceptance and future version upgrade rehearsal remain separate.

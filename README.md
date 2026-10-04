@@ -89,3 +89,7 @@ Each deferred JavaScript chunk is limited to 480 KiB gzip and 1600 KiB raw.
 The large ELK layout engine remains deferred for diagram examples. This budget is not a business-app performance target.
 The budget script reads Vite's production manifest. It counts static entry imports and fails when a limit is exceeded.
 Type declarations resolve through the intentional UI source owner to prevent duplicate React symbols.
+
+### Published UI verification
+
+Run `npm run test:registry` to verify an isolated gallery against published UI 0.2.0. The normal gallery keeps its source-development dependency. The command records installation, clean-install and build results in `agent/REGISTRY-CONSUMER.json`. Browser acceptance is a separate task.

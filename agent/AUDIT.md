@@ -163,3 +163,12 @@ Authenticated MCP passed before work. New or expanded three-OS CI requires actua
 
 
 Three-OS source CI passed: GitHub Actions run 37202032805 on Node 26.10.0 and npm 12.2.0.
+
+## Published gallery consumption - 2026-10-04
+
+- Authenticated governance confirmed the source gallery exception.
+- React type resolution uses installed public types, without private sibling dependency paths.
+- Source verification passed lint, types, two form tests, production build and all bundle budgets.
+- An isolated copy consumed published UI 0.2.0, generated a registry-only lock, passed npm ci and full verification. Receipt: REGISTRY-CONSUMER.json.
+- Tools is pinned to 0.1.8; Node 26.10 and npm 12.2 are the supported baseline.
+- Browser, keyboard and screen-reader acceptance remain pending.

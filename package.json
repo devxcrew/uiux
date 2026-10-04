@@ -31,21 +31,24 @@
     "mcp:verify": "node agent/connect.mjs --strict",
     "version-bump": "devxcrew-tools version:bump",
     "test": "tsx --test web/src/modules/gallery/*.test.ts",
-    "check:budgets": "node tools/check-budgets.mjs"
+    "check:budgets": "node tools/check-budgets.mjs",
+    "test:registry": "node tools/registry-consumer-check.mjs"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=26.10.0",
+    "npm": ">=12.2.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devxcrew/uiux.git"
   },
   "devDependencies": {
-    "@devxcrew/tools": "^0.1.7",
+    "@devxcrew/tools": "0.1.8",
     "@eslint/js": "^10.0.1",
     "eslint": "^10.12.0",
     "tsx": "^4.23.15",
     "typescript": "6.0.3",
     "typescript-eslint": "^8.71.0"
-  }
+  },
+  "packageManager": "npm@12.2.0"
 }

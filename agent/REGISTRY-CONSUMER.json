@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-04T14:05:43.033Z",
+  "status": "registry-gallery-passed",
+  "ui": "0.2.0",
+  "destination": "C:\\Users\\sunda\\AppData\\Local\\Temp\\uiux-registry-3b118aa9-a965-4921-b5a3-3d850aa5d545",
+  "install": "passed",
+  "cleanInstall": "passed",
+  "verify": "passed",
+  "scope": "Isolated gallery consuming published UI. Browser interaction acceptance remains separate."
+}

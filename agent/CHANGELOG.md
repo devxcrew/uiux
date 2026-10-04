@@ -10,6 +10,9 @@ Changelog label: v 0.1.8
 
 ## v-0.1.8
 
+- Verify published UI 0.2.0 in an isolated registry gallery and clean installation.
+- Resolve React types through public installed packages and align the supported runtime.
+
 ### Local completion preparation - 2026-10-04
 
 - Reconcile task status and preserve historical evidence.

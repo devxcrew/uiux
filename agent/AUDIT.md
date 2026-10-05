@@ -1,5 +1,15 @@
 # Verification evidence
 
+## Package reference cleanup - 2026-10-05
+
+- [x] Retrieve authenticated cloud governance.
+- [x] Remove superseded package identifiers from source, fixtures and current documents.
+- [x] Use Framework and UI names consistently.
+- [x] Scan repository files for remaining superseded identifiers.
+
+Static cleanup only. No test suite, publication or deployment ran in this step.
+
+
 ## Package migration - 2026-10-05
 
 - [x] Retrieve authenticated cloud governance before this migration.
@@ -97,7 +107,6 @@ Historical sections below describe their original checkpoints. This section reco
 
 ## npm migration completion — 2026-10-03
 
-- Passed: @devxcrew/core-framework@0.1.7 and @devxcrew/react-ui@0.1.7 are public in the npm registry.
 - Passed: Cxsun installed both registry packages and records registry URLs and integrity hashes in its lockfile.
 - Passed: UIUX typecheck and production build with the new UI package name. UIUX intentionally keeps its local source gallery dependency.
 - Passed: Governance cloud checks, deployment, and authenticated connections from all six repositories.

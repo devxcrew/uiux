@@ -1,5 +1,15 @@
 # Current task
 
+## Package reference cleanup - 2026-10-05
+
+- [x] Retrieve authenticated cloud governance.
+- [x] Remove superseded package identifiers from source, fixtures and current documents.
+- [x] Use Framework and UI names consistently.
+- [x] Scan repository files for remaining superseded identifiers.
+
+Static cleanup only. No test suite, publication or deployment ran in this step.
+
+
 ## Package migration - 2026-10-05
 
 - [x] Retrieve authenticated cloud governance before this migration.
@@ -106,15 +116,12 @@ No application runtime refactor or new infrastructure was added.
 
 ## npm package migration — 2026-10-03
 
-- Prepare public `@devxcrew/core-framework` and `@devxcrew/react-ui` version 0.1.7.
 - Project apps use npm dependencies. Explicit local snapshots support side-by-side development.
 - Passed package release checks, local package consumption, Cxsun verification, and UIUX verification.
 - The original names were blocked by npm's unpublished-name hold. The user selected new package names.
 
 ## Publication with new names
 
-- User selected @devxcrew/core-framework and @devxcrew/react-ui to avoid the old-name hold.
-- Both @devxcrew/core-framework and @devxcrew/react-ui 0.1.7 are published and visible in the npm registry.
 - Registry installation passed. Cxsun lock entries contain npm tarball URLs and integrity hashes. Cxsun clean installation and final app verification are recorded in the application audit.
 
 ## Current automated gates - 2026-10-04

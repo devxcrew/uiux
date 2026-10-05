@@ -20,7 +20,7 @@ Document fixture examples honestly. They do not prove persistence or API authori
 ## Verified baseline — 2026-10-04
 
 - Gallery code lives in web/src/modules/gallery.
-- Existing examples consume public @devxcrew/react-ui exports.
+- Existing examples consume public @devxcrew/ui exports.
 - Master list variants use sample records and delegate actions and persistence to applications.
 - web/package.json uses file:../../../shared/ui.
 - The root preinstall script installs the sibling UI repository.

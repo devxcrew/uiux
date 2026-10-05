@@ -1,11 +1,11 @@
 import { FileTextIcon, FilterIcon, PlusIcon, UserCircleIcon } from "lucide-react";
 import type { ReactNode } from "react";
-import { AppHeader } from "@devxcrew/react-ui/blocks/app-header";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
-import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
+import { AppHeader } from "@devxcrew/ui/blocks/app-header";
+import { Button } from "@devxcrew/ui/components/button";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/ui/templates/ui-page";
 
-const appHeaderCode = `import { AppHeader } from "@devxcrew/react-ui/blocks/app-header"
+const appHeaderCode = `import { AppHeader } from "@devxcrew/ui/blocks/app-header"
 
 <AppHeader
   variant="title-actions"
@@ -21,7 +21,7 @@ export function UiAppHeaderDocumentation() {
   return (
     <UiTemplatePage
       code={appHeaderCode}
-      importPath="@devxcrew/react-ui/blocks/app-header"
+      importPath="@devxcrew/ui/blocks/app-header"
       kind="Block"
       name="App Header"
       navigation={{ previous: { href: "/?block=mascot", name: "Mascot" } }}
@@ -70,7 +70,7 @@ export function UiAppHeaderDocumentation() {
             description="A source link with a copy affordance for docs, code, and resource pages."
             header={
               <AppHeader
-                copyValue="@devxcrew/react-ui/blocks/app-header"
+                copyValue="@devxcrew/ui/blocks/app-header"
                 resourceHref="#source"
                 resourceLabel="apps/crm/web/src/enquiry.tsx"
                 title="Enquiry"

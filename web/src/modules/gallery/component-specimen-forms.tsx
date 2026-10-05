@@ -1,6 +1,6 @@
 import { Mail, Search } from "lucide-react";
 import { useState } from "react";
-import { Checkbox } from "@devxcrew/react-ui/components/checkbox";
+import { Checkbox } from "@devxcrew/ui/components/checkbox";
 import {
   Combobox,
   ComboboxContent,
@@ -8,20 +8,20 @@ import {
   ComboboxInput,
   ComboboxItem,
   ComboboxList,
-} from "@devxcrew/react-ui/components/combobox";
-import { Field, FieldDescription, FieldGroup, FieldLabel } from "@devxcrew/react-ui/components/field";
-import { Input } from "@devxcrew/react-ui/components/input";
-import { InputGroup, InputGroupAddon, InputGroupInput } from "@devxcrew/react-ui/components/input-group";
-import { InputOTP, InputOTPGroup, InputOTPSlot } from "@devxcrew/react-ui/components/input-otp";
-import { Label } from "@devxcrew/react-ui/components/label";
-import { NativeSelect, NativeSelectOption } from "@devxcrew/react-ui/components/native-select";
-import { Questionnaire } from "@devxcrew/react-ui/components/questionnaire";
-import { RadioGroup, RadioGroupItem } from "@devxcrew/react-ui/components/radio-group";
-import { RichTextEditor } from "@devxcrew/react-ui/components/rich-text-editor";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@devxcrew/react-ui/components/select";
-import { Slider } from "@devxcrew/react-ui/components/slider";
-import { Switch } from "@devxcrew/react-ui/components/switch";
-import { Textarea } from "@devxcrew/react-ui/components/textarea";
+} from "@devxcrew/ui/components/combobox";
+import { Field, FieldDescription, FieldGroup, FieldLabel } from "@devxcrew/ui/components/field";
+import { Input } from "@devxcrew/ui/components/input";
+import { InputGroup, InputGroupAddon, InputGroupInput } from "@devxcrew/ui/components/input-group";
+import { InputOTP, InputOTPGroup, InputOTPSlot } from "@devxcrew/ui/components/input-otp";
+import { Label } from "@devxcrew/ui/components/label";
+import { NativeSelect, NativeSelectOption } from "@devxcrew/ui/components/native-select";
+import { Questionnaire } from "@devxcrew/ui/components/questionnaire";
+import { RadioGroup, RadioGroupItem } from "@devxcrew/ui/components/radio-group";
+import { RichTextEditor } from "@devxcrew/ui/components/rich-text-editor";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@devxcrew/ui/components/select";
+import { Slider } from "@devxcrew/ui/components/slider";
+import { Switch } from "@devxcrew/ui/components/switch";
+import { Textarea } from "@devxcrew/ui/components/textarea";
 import { SpecimenStage } from "./component-specimen-stage";
 
 type SpecimenProps = { compact: boolean; componentId: string };

@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import { Field, FieldLabel } from '@devxcrew/react-ui/components/field'
-import { Input } from '@devxcrew/react-ui/components/input'
-import { Textarea } from '@devxcrew/react-ui/components/textarea'
-import { FormBlock, FormLookupField, type FormBlockTab } from '@devxcrew/react-ui/blocks/form'
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
+import { Field, FieldLabel } from '@devxcrew/ui/components/field'
+import { Input } from '@devxcrew/ui/components/input'
+import { Textarea } from '@devxcrew/ui/components/textarea'
+import { FormBlock, FormLookupField, type FormBlockTab } from '@devxcrew/ui/blocks/form'
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page'
 
 const contactTypes = [
   { label: 'Customer', value: 'customer' },
@@ -22,7 +22,7 @@ const contactGroups = [
 
 const formPageDescription = 'Update contact identity, communication, address, and finance details.'
 
-const formCode = `import { FormBlock, FormLookupField } from '@devxcrew/react-ui/blocks/form'
+const formCode = `import { FormBlock, FormLookupField } from '@devxcrew/ui/blocks/form'
 
 export function ContactForm() {
   const [active, setActive] = useState(true)
@@ -66,7 +66,7 @@ export function UiFormDocumentation() {
   return (
     <UiTemplatePage
       code={formCode}
-      importPath="@devxcrew/react-ui/blocks/form"
+      importPath="@devxcrew/ui/blocks/form"
       kind="Block"
       name="Form"
       navigation={{

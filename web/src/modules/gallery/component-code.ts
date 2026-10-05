@@ -30,7 +30,7 @@ function createButtonGroupCode(source: string) {
   Share2,
   Trash2,
 } from 'lucide-react'
-import { Button } from '@devxcrew/react-ui/components/button'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   ButtonGroup,
   ButtonGroupSeparator,
@@ -87,7 +87,7 @@ export function ButtonGroupSet() {
 function createButtonCode(source: string) {
   return `import { ChevronDown, LoaderCircle, Plus, Star } from 'lucide-react'
 import { Button } from '${source}'
-import { ButtonGroup } from '@devxcrew/react-ui/components/button-group'
+import { ButtonGroup } from '@devxcrew/ui/components/button-group'
 
 export function ButtonSet() {
   return (

@@ -4,7 +4,7 @@ Own the separate developer gallery. Use shared UI exports. Keep business and dat
 this repository.
 
 Gallery URL: http://127.0.0.1:6102. Configure the gallery in web/.app.env. Reusable UI comes from
-@devxcrew/react-ui.
+@devxcrew/ui.
 
 ## Run
 

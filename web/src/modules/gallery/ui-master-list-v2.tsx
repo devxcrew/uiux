@@ -3,10 +3,10 @@ import {
   type MasterListDeskColumn,
   type MasterListDeskFilter,
   type MasterListDeskRecord,
-} from "@devxcrew/react-ui/blocks/master-list";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
-import { getStatusBadgeValue, StatusBadge } from "@devxcrew/react-ui/components/status-badge";
-import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
+} from "@devxcrew/ui/blocks/master-list";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
+import { getStatusBadgeValue, StatusBadge } from "@devxcrew/ui/components/status-badge";
+import { UiTemplatePage } from "@devxcrew/ui/templates/ui-page";
 
 type EnquiryRecord = MasterListDeskRecord & {
   assignedTo: string;
@@ -169,7 +169,7 @@ const records: EnquiryRecord[] = [
   },
 ];
 
-const exampleCode = `import { MasterListDesk } from '@devxcrew/react-ui/blocks/master-list'
+const exampleCode = `import { MasterListDesk } from '@devxcrew/ui/blocks/master-list'
 
 <MasterListDesk
   columns={columns}
@@ -190,7 +190,7 @@ export function MasterListDeskPage({ pageVariant = "v2" }: { pageVariant?: "v2" 
   return (
     <UiTemplatePage
       code={exampleCode}
-      importPath="@devxcrew/react-ui/blocks/master-list"
+      importPath="@devxcrew/ui/blocks/master-list"
       kind="Template"
       name={`Master List ${pageVariant}`}
       preview={

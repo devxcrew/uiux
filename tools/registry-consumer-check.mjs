@@ -37,7 +37,7 @@ const web = JSON.parse(readFileSync(webPath, "utf8"));
 for (const group of ["dependencies", "devDependencies"])
   for (const name of Object.keys(web[group]))
     web[group][name] = installedVersion(name);
-web.dependencies["@devxcrew/react-ui"] = "0.2.0";
+web.dependencies["@devxcrew/ui"] = "0.2.0";
 writeFileSync(webPath, JSON.stringify(web, null, 2) + "\n");
 // The first installation creates a real registry lock. URL dependencies remain blocked.
 run(["install", "--ignore-scripts", "--no-audit", "--no-fund"]);

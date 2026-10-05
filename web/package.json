@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@devxcrew/react-ui": "file:../../../shared/ui",
+    "@devxcrew/ui": "file:../../../shared/ui",
     "@tailwindcss/vite": "^4.3.3",
     "@tanstack/react-form": "^1.33.5",
     "@vitejs/plugin-react": "6.1.1",

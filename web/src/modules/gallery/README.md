@@ -17,8 +17,8 @@ The application-owned gallery documents and previews the shared UI system.
   navigation, environment, and browser state.
 - `../../../packages/ui` owns reusable primitives, components, forms, blocks, layouts, templates,
   variants, hooks, tokens, and themes.
-- Live specimens import shared UI only through documented `@devxcrew/react-ui` public exports.
-- The gallery is application code and is not exported through `@devxcrew/react-ui`.
+- Live specimens import shared UI only through documented `@devxcrew/ui` public exports.
+- The gallery is application code and is not exported through `@devxcrew/ui`.
 - The gallery must not create or copy an alternate shared UI implementation.
 - The module owns no database tables, business entities, API routes, or background jobs.
 

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { HeadphonesIcon, LaptopIcon, ShirtIcon } from "lucide-react";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { EcommerceHeader } from "@devxcrew/react-ui/layouts/ecommerce-header";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
-import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
+import { Button } from "@devxcrew/ui/components/button";
+import { EcommerceHeader } from "@devxcrew/ui/layouts/ecommerce-header";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/ui/templates/ui-page";
 
 const sampleCategories = [
   {
@@ -56,7 +56,7 @@ export function UiEcommerceHeaderDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { EcommerceHeader } from '@devxcrew/react-ui/layouts/ecommerce-header'
+      code={`import { EcommerceHeader } from '@devxcrew/ui/layouts/ecommerce-header'
 
 export function Storefront() {
   return (
@@ -66,7 +66,7 @@ export function Storefront() {
     />
   )
 }`}
-      importPath="@devxcrew/react-ui/layouts/ecommerce-header"
+      importPath="@devxcrew/ui/layouts/ecommerce-header"
       kind="Static Page"
       name="E-Commerce Storefront Header"
       navigation={{

@@ -2,8 +2,8 @@ import { useState } from "react";
 import {
   ResourceHeader,
   ResourceTable,
-} from "@devxcrew/react-ui/blocks/resource-view";
-import { Button } from "@devxcrew/react-ui/components/button";
+} from "@devxcrew/ui/blocks/resource-view";
+import { Button } from "@devxcrew/ui/components/button";
 import { ResourceExampleForm } from "./resource-example-form";
 
 export function ResourceContractExample() {

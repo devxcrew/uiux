@@ -1,7 +1,7 @@
 import { CheckIcon, Code2Icon, CopyIcon } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { Badge } from '@devxcrew/react-ui/components/badge'
-import { Button } from '@devxcrew/react-ui/components/button'
+import { Badge } from '@devxcrew/ui/components/badge'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   Dialog,
   DialogContent,
@@ -9,14 +9,14 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@devxcrew/react-ui/components/dialog'
+} from '@devxcrew/ui/components/dialog'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@devxcrew/react-ui/components/tooltip'
-import { UiTemplateCode } from '@devxcrew/react-ui/templates/ui-page'
+} from '@devxcrew/ui/components/tooltip'
+import { UiTemplateCode } from '@devxcrew/ui/templates/ui-page'
 import { createUiPageCode } from './ui-page-code'
 import { UiPagePreview } from './ui-page-preview'
 import type { UiPageDoc } from './ui-pages'

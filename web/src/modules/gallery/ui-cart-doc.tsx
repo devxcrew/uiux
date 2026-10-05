@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { Button } from '@devxcrew/react-ui/components/button'
-import { StorefrontCart, type CartItem } from '@devxcrew/react-ui/blocks/ecommerce/cart'
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
+import { Button } from '@devxcrew/ui/components/button'
+import { StorefrontCart, type CartItem } from '@devxcrew/ui/blocks/ecommerce/cart'
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page'
 
 const initialCartItems: CartItem[] = [
   {
@@ -45,12 +45,12 @@ export function UiCartDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { StorefrontCart } from '@devxcrew/react-ui/blocks/ecommerce/cart'
+      code={`import { StorefrontCart } from '@devxcrew/ui/blocks/ecommerce/cart'
 
 export function CartView({ items }) {
   return <StorefrontCart items={items} />
 }`}
-      importPath="@devxcrew/react-ui/blocks/ecommerce/cart"
+      importPath="@devxcrew/ui/blocks/ecommerce/cart"
       kind="Block"
       name="Storefront Cart"
       navigation={{

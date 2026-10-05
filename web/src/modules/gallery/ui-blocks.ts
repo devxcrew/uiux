@@ -1,4 +1,4 @@
-import { designSystemBlocks, designSystemManifest } from "@devxcrew/react-ui/design-system";
+import { designSystemBlocks, designSystemManifest } from "@devxcrew/ui/design-system";
 
 export type UiBlockId = (typeof designSystemBlocks)[number]["id"];
 

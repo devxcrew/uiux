@@ -23,13 +23,13 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-import { Badge } from "@devxcrew/react-ui/components/badge";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { Textarea } from "@devxcrew/react-ui/components/textarea";
-import type { AgentWorkspaceRail } from "@devxcrew/react-ui/layouts/agent-workspace";
-import { DocumentationWorkspace } from "@devxcrew/react-ui/layouts/documentation-workspace";
-import { Mdi } from "@devxcrew/react-ui/layouts/mdi";
-import { MainWorkspace, type MdiNavigationSection } from "@devxcrew/react-ui/layouts/main-workspace";
+import { Badge } from "@devxcrew/ui/components/badge";
+import { Button } from "@devxcrew/ui/components/button";
+import { Textarea } from "@devxcrew/ui/components/textarea";
+import type { AgentWorkspaceRail } from "@devxcrew/ui/layouts/agent-workspace";
+import { DocumentationWorkspace } from "@devxcrew/ui/layouts/documentation-workspace";
+import { Mdi } from "@devxcrew/ui/layouts/mdi";
+import { MainWorkspace, type MdiNavigationSection } from "@devxcrew/ui/layouts/main-workspace";
 import { uiBlockDocs } from "./ui-blocks";
 import { uiComponentDocs } from "./ui-components";
 import type { UiLayoutId } from "./ui-layouts";

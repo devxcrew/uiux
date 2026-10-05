@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { PricingTable, type PricingTierItem } from '@devxcrew/react-ui/blocks/pricing'
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
+import { PricingTable, type PricingTierItem } from '@devxcrew/ui/blocks/pricing'
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page'
 
 const sampleTiers: readonly PricingTierItem[] = [
   {
@@ -60,7 +60,7 @@ const sampleTiers: readonly PricingTierItem[] = [
   },
 ]
 
-const pricingCode = `import { PricingTable, type PricingTierItem } from '@devxcrew/react-ui/blocks/pricing'
+const pricingCode = `import { PricingTable, type PricingTierItem } from '@devxcrew/ui/blocks/pricing'
 
 export function PricingPage() {
   return (
@@ -82,7 +82,7 @@ export function UiPricingDocumentation() {
   return (
     <UiTemplatePage
       code={pricingCode}
-      importPath="@devxcrew/react-ui/blocks/pricing"
+      importPath="@devxcrew/ui/blocks/pricing"
       kind="Block"
       name="Pricing Table"
       navigation={{

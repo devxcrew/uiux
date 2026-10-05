@@ -1,10 +1,10 @@
 import { ArrowRight, Boxes, Component, LayoutTemplate } from "lucide-react";
-import { Badge } from "@devxcrew/react-ui/components/badge";
-import { ExecutionStatus } from "@devxcrew/react-ui/blocks/execution-status";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { designSystemCategories } from "@devxcrew/react-ui/design-system";
-import { TopologyRegion } from "@devxcrew/react-ui/features/interface-topology";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
+import { Badge } from "@devxcrew/ui/components/badge";
+import { ExecutionStatus } from "@devxcrew/ui/blocks/execution-status";
+import { Button } from "@devxcrew/ui/components/button";
+import { designSystemCategories } from "@devxcrew/ui/design-system";
+import { TopologyRegion } from "@devxcrew/ui/features/interface-topology";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
 import { ComponentSpecimen } from "./component-specimen";
 import { resolveUiComponentVariant } from "./component-variants";
 import { uiBlockDocs } from "./ui-blocks";

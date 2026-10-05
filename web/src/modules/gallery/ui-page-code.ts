@@ -2,7 +2,7 @@ import type { UiPageDoc } from './ui-pages'
 
 export function createUiPageCode(page: UiPageDoc) {
   if (page.family.id === 'login') {
-    return `import { LoginPage } from '@devxcrew/react-ui/blocks/auth'
+    return `import { LoginPage } from '@devxcrew/ui/blocks/auth'
 
 export function ApplicationLogin() {
   return (
@@ -14,7 +14,7 @@ export function ApplicationLogin() {
 }`
   }
   if (page.family.id === 'register') {
-    return `import { RegisterPage } from '@devxcrew/react-ui/blocks/auth'
+    return `import { RegisterPage } from '@devxcrew/ui/blocks/auth'
 
 export function ApplicationRegister() {
   return (
@@ -28,13 +28,13 @@ export function ApplicationRegister() {
 }`
   }
   if (page.family.id === 'forgot-password') {
-    return `import { PasswordForgotPage } from '@devxcrew/react-ui/blocks/auth'
+    return `import { PasswordForgotPage } from '@devxcrew/ui/blocks/auth'
 
 export function ApplicationPasswordRecovery() {
   return <PasswordForgotPage backHref="/login" onSubmit={requestPasswordReset} />
 }`
   }
-  return `import { NotificationCenterPage } from '@devxcrew/react-ui/blocks/notifications'
+  return `import { NotificationCenterPage } from '@devxcrew/ui/blocks/notifications'
 
 export function ApplicationNotifications() {
   return (

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { Mascot } from "@devxcrew/react-ui/blocks/mascot";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
-import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
+import { Button } from "@devxcrew/ui/components/button";
+import { Mascot } from "@devxcrew/ui/blocks/mascot";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/ui/templates/ui-page";
 
 const mascotVariants = [
   "afro",
@@ -72,7 +72,7 @@ function mascotLabel(id: string) {
     .join(" ");
 }
 
-const mascotCode = `import { Mascot } from '@devxcrew/react-ui/blocks/mascot'
+const mascotCode = `import { Mascot } from '@devxcrew/ui/blocks/mascot'
 
 export function PageMascot() {
   return (
@@ -92,7 +92,7 @@ export function UiMascotDocumentation() {
   return (
     <UiTemplatePage
       code={mascotCode}
-      importPath="@devxcrew/react-ui/blocks/mascot"
+      importPath="@devxcrew/ui/blocks/mascot"
       kind="Block"
       name="Mascot"
       navigation={{ previous: { href: "/?block=execution-status", name: "Execution Status" } }}

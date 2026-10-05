@@ -4,7 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@devxcrew/react-ui/components/accordion'
+} from '@devxcrew/ui/components/accordion'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -12,14 +12,14 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@devxcrew/react-ui/components/breadcrumb'
+} from '@devxcrew/ui/components/breadcrumb'
 import {
   Menubar,
   MenubarContent,
   MenubarItem,
   MenubarMenu,
   MenubarTrigger,
-} from '@devxcrew/react-ui/components/menubar'
+} from '@devxcrew/ui/components/menubar'
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -27,7 +27,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from '@devxcrew/react-ui/components/navigation-menu'
+} from '@devxcrew/ui/components/navigation-menu'
 import {
   Pagination,
   PaginationContent,
@@ -35,7 +35,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from '@devxcrew/react-ui/components/pagination'
+} from '@devxcrew/ui/components/pagination'
 import {
   Sidebar,
   SidebarContent,
@@ -47,8 +47,8 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarProvider,
-} from '@devxcrew/react-ui/components/sidebar'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@devxcrew/react-ui/components/tabs'
+} from '@devxcrew/ui/components/sidebar'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@devxcrew/ui/components/tabs'
 import type { UiComponentVariantId } from './component-variants'
 import { SpecimenStage } from './component-specimen-stage'
 

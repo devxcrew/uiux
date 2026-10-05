@@ -1,5 +1,5 @@
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main';
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page';
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main';
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page';
 import { createUiPageCode } from './ui-page-code';
 import { UiPagePreview } from './ui-page-preview';
 import { uiPageDocs, type UiPageDoc } from './ui-pages';

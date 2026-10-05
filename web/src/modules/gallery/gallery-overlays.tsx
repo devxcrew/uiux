@@ -1,4 +1,4 @@
-import { Button } from '@devxcrew/react-ui/components/button'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   AlertDialog,
   AlertDialogAction,
@@ -9,7 +9,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@devxcrew/react-ui/components/alert-dialog'
+} from '@devxcrew/ui/components/alert-dialog'
 import {
   Dialog,
   DialogContent,
@@ -17,7 +17,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@devxcrew/react-ui/components/dialog'
+} from '@devxcrew/ui/components/dialog'
 import {
   Drawer,
   DrawerContent,
@@ -25,14 +25,14 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from '@devxcrew/react-ui/components/drawer'
+} from '@devxcrew/ui/components/drawer'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@devxcrew/react-ui/components/dropdown-menu'
-import { HoverCard, HoverCardContent, HoverCardTrigger } from '@devxcrew/react-ui/components/hover-card'
+} from '@devxcrew/ui/components/dropdown-menu'
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '@devxcrew/ui/components/hover-card'
 import {
   Popover,
   PopoverContent,
@@ -40,7 +40,7 @@ import {
   PopoverHeader,
   PopoverTitle,
   PopoverTrigger,
-} from '@devxcrew/react-ui/components/popover'
+} from '@devxcrew/ui/components/popover'
 import {
   Sheet,
   SheetContent,
@@ -48,13 +48,13 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@devxcrew/react-ui/components/sheet'
+} from '@devxcrew/ui/components/sheet'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@devxcrew/react-ui/components/tooltip'
+} from '@devxcrew/ui/components/tooltip'
 import { GalleryCard } from './gallery-card'
 
 export function GalleryOverlays() {

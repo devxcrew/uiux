@@ -1,4 +1,4 @@
-import { designSystemPages, type DesignSystemPageDefinition } from '@devxcrew/react-ui/design-system'
+import { designSystemPages, type DesignSystemPageDefinition } from '@devxcrew/ui/design-system'
 
 export type UiPageId =
   'forgot-password' | 'login-v1' | 'login-v2' | 'notifications' | 'register-v1' | 'register-v2'

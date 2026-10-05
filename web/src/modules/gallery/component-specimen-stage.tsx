@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { cn } from "@devxcrew/react-ui/lib/utils";
+import { cn } from "@devxcrew/ui/lib/utils";
 
 export function SpecimenStage({
   children,

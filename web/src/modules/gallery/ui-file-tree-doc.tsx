@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { FileTree, type FileTreeNode } from '@devxcrew/react-ui/blocks/file-tree'
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
+import { FileTree, type FileTreeNode } from '@devxcrew/ui/blocks/file-tree'
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page'
 
 const sampleTreeNodes: readonly FileTreeNode[] = [
   {
@@ -77,7 +77,7 @@ const sampleTreeNodes: readonly FileTreeNode[] = [
 ]
 
 const fileTreeCode = `import { useState } from 'react'
-import { FileTree, type FileTreeNode } from '@devxcrew/react-ui/blocks/file-tree'
+import { FileTree, type FileTreeNode } from '@devxcrew/ui/blocks/file-tree'
 
 export function WorkspaceExplorer() {
   const [selectedId, setSelectedId] = useState<string | null>('app-ts')
@@ -108,7 +108,7 @@ export function UiFileTreeDocumentation() {
   return (
     <UiTemplatePage
       code={fileTreeCode}
-      importPath="@devxcrew/react-ui/blocks/file-tree"
+      importPath="@devxcrew/ui/blocks/file-tree"
       kind="Block"
       name="File Tree"
       navigation={{

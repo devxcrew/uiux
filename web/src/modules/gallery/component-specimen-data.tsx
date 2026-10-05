@@ -1,14 +1,14 @@
 import { Box, Info } from 'lucide-react'
 import { Bar, BarChart, CartesianGrid, XAxis } from 'recharts'
-import { AspectRatio } from '@devxcrew/react-ui/components/aspect-ratio'
+import { AspectRatio } from '@devxcrew/ui/components/aspect-ratio'
 import {
   Avatar,
   AvatarFallback,
   AvatarGroup,
   AvatarGroupCount,
-} from '@devxcrew/react-ui/components/avatar'
-import { Badge } from '@devxcrew/react-ui/components/badge'
-import { Calendar } from '@devxcrew/react-ui/components/calendar'
+} from '@devxcrew/ui/components/avatar'
+import { Badge } from '@devxcrew/ui/components/badge'
+import { Calendar } from '@devxcrew/ui/components/calendar'
 import {
   Card,
   CardContent,
@@ -16,38 +16,38 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@devxcrew/react-ui/components/card'
+} from '@devxcrew/ui/components/card'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@devxcrew/react-ui/components/carousel'
-import { ChartContainer, type ChartConfig } from '@devxcrew/react-ui/components/chart'
+} from '@devxcrew/ui/components/carousel'
+import { ChartContainer, type ChartConfig } from '@devxcrew/ui/components/chart'
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@devxcrew/react-ui/components/collapsible'
-import { DirectionProvider } from '@devxcrew/react-ui/components/direction'
+} from '@devxcrew/ui/components/collapsible'
+import { DirectionProvider } from '@devxcrew/ui/components/direction'
 import {
   Item,
   ItemContent,
   ItemDescription,
   ItemMedia,
   ItemTitle,
-} from '@devxcrew/react-ui/components/item'
-import { Kbd, KbdGroup } from '@devxcrew/react-ui/components/kbd'
-import { Marker, MarkerContent, MarkerIcon } from '@devxcrew/react-ui/components/marker'
+} from '@devxcrew/ui/components/item'
+import { Kbd, KbdGroup } from '@devxcrew/ui/components/kbd'
+import { Marker, MarkerContent, MarkerIcon } from '@devxcrew/ui/components/marker'
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from '@devxcrew/react-ui/components/resizable'
-import { ScrollArea } from '@devxcrew/react-ui/components/scroll-area'
-import { Separator } from '@devxcrew/react-ui/components/separator'
-import { Sparkline } from '@devxcrew/react-ui/components/sparkline'
+} from '@devxcrew/ui/components/resizable'
+import { ScrollArea } from '@devxcrew/ui/components/scroll-area'
+import { Separator } from '@devxcrew/ui/components/separator'
+import { Sparkline } from '@devxcrew/ui/components/sparkline'
 import { SpecimenStage } from './component-specimen-stage'
 
 type SpecimenProps = { compact: boolean; componentId: string }

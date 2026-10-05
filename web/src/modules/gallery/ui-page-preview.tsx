@@ -1,5 +1,5 @@
-import { LoginPage, PasswordForgotPage, RegisterPage } from '@devxcrew/react-ui/blocks/auth'
-import { NotificationCenterPage } from '@devxcrew/react-ui/blocks/notifications'
+import { LoginPage, PasswordForgotPage, RegisterPage } from '@devxcrew/ui/blocks/auth'
+import { NotificationCenterPage } from '@devxcrew/ui/blocks/notifications'
 import type { UiPageDoc } from './ui-pages'
 
 const notificationItems = [

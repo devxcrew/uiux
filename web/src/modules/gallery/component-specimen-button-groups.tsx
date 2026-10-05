@@ -12,12 +12,12 @@ import {
   Share2,
   Trash2,
 } from 'lucide-react'
-import { Button } from '@devxcrew/react-ui/components/button'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   ButtonGroup,
   ButtonGroupSeparator,
   ButtonGroupText,
-} from '@devxcrew/react-ui/components/button-group'
+} from '@devxcrew/ui/components/button-group'
 
 export function ButtonGroupVariantSpecimen() {
   return (

@@ -9,8 +9,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@devxcrew/react-ui/components/alert-dialog'
-import { Button } from '@devxcrew/react-ui/components/button'
+} from '@devxcrew/ui/components/alert-dialog'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   Command,
   CommandEmpty,
@@ -18,13 +18,13 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@devxcrew/react-ui/components/command'
+} from '@devxcrew/ui/components/command'
 import {
   ContextMenu,
   ContextMenuContent,
   ContextMenuItem,
   ContextMenuTrigger,
-} from '@devxcrew/react-ui/components/context-menu'
+} from '@devxcrew/ui/components/context-menu'
 import {
   Dialog,
   DialogContent,
@@ -32,7 +32,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@devxcrew/react-ui/components/dialog'
+} from '@devxcrew/ui/components/dialog'
 import {
   Drawer,
   DrawerContent,
@@ -40,14 +40,14 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from '@devxcrew/react-ui/components/drawer'
+} from '@devxcrew/ui/components/drawer'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@devxcrew/react-ui/components/dropdown-menu'
-import { HoverCard, HoverCardContent, HoverCardTrigger } from '@devxcrew/react-ui/components/hover-card'
+} from '@devxcrew/ui/components/dropdown-menu'
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '@devxcrew/ui/components/hover-card'
 import {
   Popover,
   PopoverContent,
@@ -55,7 +55,7 @@ import {
   PopoverHeader,
   PopoverTitle,
   PopoverTrigger,
-} from '@devxcrew/react-ui/components/popover'
+} from '@devxcrew/ui/components/popover'
 import {
   Sheet,
   SheetContent,
@@ -63,13 +63,13 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@devxcrew/react-ui/components/sheet'
+} from '@devxcrew/ui/components/sheet'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@devxcrew/react-ui/components/tooltip'
+} from '@devxcrew/ui/components/tooltip'
 import { SpecimenStage } from './component-specimen-stage'
 
 type SpecimenProps = { compact: boolean; componentId: string }

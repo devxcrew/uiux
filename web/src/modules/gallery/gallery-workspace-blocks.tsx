@@ -13,9 +13,9 @@ import {
   WorkspaceMetricGrid,
   WorkspacePageHeader,
   WorkspaceSectionCard,
-} from '@devxcrew/react-ui/blocks/workspace'
-import { Badge } from '@devxcrew/react-ui/components/badge'
-import { Button } from '@devxcrew/react-ui/components/button'
+} from '@devxcrew/ui/blocks/workspace'
+import { Badge } from '@devxcrew/ui/components/badge'
+import { Button } from '@devxcrew/ui/components/button'
 
 export function GalleryWorkspaceBlocks() {
   return (

@@ -1,4 +1,4 @@
-import { MainWorkspace } from "@devxcrew/react-ui";
+import { MainWorkspace } from "@devxcrew/ui";
 import {
   BellIcon,
   BlocksIcon,

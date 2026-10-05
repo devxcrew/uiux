@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Eye, Pencil, Plus } from "lucide-react";
-import { Button } from "@devxcrew/react-ui/components/button";
+import { Button } from "@devxcrew/ui/components/button";
 import {
   createDataTableColumnHelper,
   DataTableBlock,
@@ -9,9 +9,9 @@ import {
   DataTableStatus,
   DataTableTotals,
   type DataTableColumn,
-} from "@devxcrew/react-ui/blocks/table";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
-import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
+} from "@devxcrew/ui/blocks/table";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/ui/templates/ui-page";
 import { ResourceContractExample } from "./resource-contract-example";
 
 type WorkspaceRow = {
@@ -126,7 +126,7 @@ import {
   DataTableRowActions,
   DataTableStatus,
   DataTableTotals,
-} from '@devxcrew/react-ui/blocks/table'
+} from '@devxcrew/ui/blocks/table'
 
 const columnHelper = createDataTableColumnHelper<WorkspaceRow>()
 function buildColumns(onOpen: (row: WorkspaceRow) => void) {
@@ -196,7 +196,7 @@ export function UiTableDocumentation() {
   return (
     <UiTemplatePage
       code={tableCode}
-      importPath="@devxcrew/react-ui/blocks/table"
+      importPath="@devxcrew/ui/blocks/table"
       kind="Block"
       name="Table"
       navigation={{

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page'
 import { createComponentCode } from './component-code'
 import { ComponentVariantGallery } from './component-variant-gallery'
 import {

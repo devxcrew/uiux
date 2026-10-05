@@ -6,11 +6,11 @@ import {
   type MasterField,
   type MasterFormValues,
   type MasterRecord,
-} from "@devxcrew/react-ui/blocks/master-list";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
-import { getStatusBadgeValue, StatusBadge } from "@devxcrew/react-ui/components/status-badge";
-import { TopologyRegion } from "@devxcrew/react-ui/features/interface-topology";
-import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
+} from "@devxcrew/ui/blocks/master-list";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
+import { getStatusBadgeValue, StatusBadge } from "@devxcrew/ui/components/status-badge";
+import { TopologyRegion } from "@devxcrew/ui/features/interface-topology";
+import { UiTemplatePage } from "@devxcrew/ui/templates/ui-page";
 
 export type MasterListPageVariant = "v1" | "v2" | "v3" | "v4";
 
@@ -79,7 +79,7 @@ const initialRecords: MasterRecord[] = [
   },
 ];
 
-const exampleCode = `import { MasterForm, MasterList } from '@devxcrew/react-ui/blocks/master-list'
+const exampleCode = `import { MasterForm, MasterList } from '@devxcrew/ui/blocks/master-list'
 
 <MasterList fields={fields} records={records} title="Categories"
   variant="table" onCreate={openCreate} onEdit={openEdit} />
@@ -122,7 +122,7 @@ export function MasterListTemplatePage({ pageVariant }: { pageVariant: MasterLis
   return (
     <UiTemplatePage
       code={exampleCode}
-      importPath="@devxcrew/react-ui/blocks/master-list"
+      importPath="@devxcrew/ui/blocks/master-list"
       kind="Template"
       name={config.name}
       preview={

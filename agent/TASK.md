@@ -1,5 +1,13 @@
 # Current task
 
+## Package migration - 2026-10-05
+
+- [x] Retrieve authenticated cloud governance before this migration.
+- [x] Update active package imports, helpers and manifests to the shorter public names.
+- [x] Install and verify the published registry packages.
+- [x] Commit and push the reviewed migration.
+
+
 ## Completion wave - 2026-10-04
 
 Source 0.1.8 passed lint, two form tests, production build and enforced bundle budgets. Those implementation steps are complete. Published UI 0.2.0 also passed isolated registry installation and clean-install verification. Browser gallery acceptance remains open. Three-OS source-gallery CI is added in this wave.

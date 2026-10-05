@@ -2,9 +2,9 @@ import { useState } from 'react'
 import {
   DeliveryTracker,
   type DeliveryMilestone,
-} from '@devxcrew/react-ui/blocks/ecommerce/delivery-tracker'
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
+} from '@devxcrew/ui/blocks/ecommerce/delivery-tracker'
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page'
 
 const sampleMilestones: DeliveryMilestone[] = [
   {
@@ -49,12 +49,12 @@ export function UiDeliveryTrackerDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { DeliveryTracker } from '@devxcrew/react-ui/blocks/ecommerce/delivery-tracker'
+      code={`import { DeliveryTracker } from '@devxcrew/ui/blocks/ecommerce/delivery-tracker'
 
 export function TrackingStatus({ milestones, orderId, trackingNumber }) {
   return <DeliveryTracker milestones={milestones} orderId={orderId} trackingNumber={trackingNumber} />
 }`}
-      importPath="@devxcrew/react-ui/blocks/ecommerce/delivery-tracker"
+      importPath="@devxcrew/ui/blocks/ecommerce/delivery-tracker"
       kind="Block"
       name="Delivery Tracker"
       navigation={{

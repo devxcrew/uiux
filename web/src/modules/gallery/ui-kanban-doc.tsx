@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { KanbanBoard, type KanbanCardItem, type KanbanColumnItem } from '@devxcrew/react-ui/blocks/kanban'
-import { useMdiTopology } from '@devxcrew/react-ui/layouts/mdi-main'
-import { UiTemplatePage } from '@devxcrew/react-ui/templates/ui-page'
+import { KanbanBoard, type KanbanCardItem, type KanbanColumnItem } from '@devxcrew/ui/blocks/kanban'
+import { useMdiTopology } from '@devxcrew/ui/layouts/mdi-main'
+import { UiTemplatePage } from '@devxcrew/ui/templates/ui-page'
 
 const initialColumns: readonly KanbanColumnItem[] = [
   { accentColor: '#3b82f6', id: 'backlog', limit: 8, title: 'Backlog' },
@@ -62,7 +62,7 @@ const initialCards: readonly KanbanCardItem[] = [
 ]
 
 const kanbanCode = `import { useState } from 'react'
-import { KanbanBoard, type KanbanCardItem, type KanbanColumnItem } from '@devxcrew/react-ui/blocks/kanban'
+import { KanbanBoard, type KanbanCardItem, type KanbanColumnItem } from '@devxcrew/ui/blocks/kanban'
 
 export function ProjectKanban() {
   const [cards, setCards] = useState<readonly KanbanCardItem[]>(initialCards)
@@ -114,7 +114,7 @@ export function UiKanbanDocumentation() {
   return (
     <UiTemplatePage
       code={kanbanCode}
-      importPath="@devxcrew/react-ui/blocks/kanban"
+      importPath="@devxcrew/ui/blocks/kanban"
       kind="Block"
       name="Kanban Board"
       navigation={{

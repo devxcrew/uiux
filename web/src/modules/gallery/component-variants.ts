@@ -1,4 +1,4 @@
-import type { DesignSystemVariantDefinition } from "@devxcrew/react-ui/design-system";
+import type { DesignSystemVariantDefinition } from "@devxcrew/ui/design-system";
 import type { UiComponentDoc } from "./ui-components";
 
 export type UiComponentVariant = DesignSystemVariantDefinition;

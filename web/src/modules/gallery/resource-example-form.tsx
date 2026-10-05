@@ -1,8 +1,8 @@
 import { useForm } from '@tanstack/react-form';
 import { useState } from 'react';
-import { Button } from '@devxcrew/react-ui/components/button';
-import { Input } from '@devxcrew/react-ui/components/input';
-import { ResourceFeedback } from '@devxcrew/react-ui/blocks/resource-view';
+import { Button } from '@devxcrew/ui/components/button';
+import { Input } from '@devxcrew/ui/components/input';
+import { ResourceFeedback } from '@devxcrew/ui/blocks/resource-view';
 import { resourceExampleSchema, validateExampleSave } from './resource-example.schema';
 
 export function ResourceExampleForm({initialName,existingNames,onSave,onCancel}:{initialName:string;existingNames:readonly string[];onSave(name:string):void;onCancel():void}) {

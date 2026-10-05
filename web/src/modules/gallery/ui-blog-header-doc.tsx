@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { BlogHeader } from "@devxcrew/react-ui/layouts/blog-header";
-import { useMdiTopology } from "@devxcrew/react-ui/layouts/mdi-main";
-import { UiTemplatePage } from "@devxcrew/react-ui/templates/ui-page";
+import { Button } from "@devxcrew/ui/components/button";
+import { BlogHeader } from "@devxcrew/ui/layouts/blog-header";
+import { useMdiTopology } from "@devxcrew/ui/layouts/mdi-main";
+import { UiTemplatePage } from "@devxcrew/ui/templates/ui-page";
 
 const sampleTopics = [
   { active: true, href: "#all", id: "all", label: "All Stories", postCount: 24 },
@@ -18,12 +18,12 @@ export function UiBlogHeaderDocumentation() {
 
   return (
     <UiTemplatePage
-      code={`import { BlogHeader } from '@devxcrew/react-ui/layouts/blog-header'
+      code={`import { BlogHeader } from '@devxcrew/ui/layouts/blog-header'
 
 export function EditorialJournal() {
   return <BlogHeader brand={{ title: 'Codex Editorial' }} />
 }`}
-      importPath="@devxcrew/react-ui/layouts/blog-header"
+      importPath="@devxcrew/ui/layouts/blog-header"
       kind="Static Page"
       name="Editorial Blog Header"
       navigation={{

@@ -1,5 +1,12 @@
 # UIUX foundation plan
 
+## Current package migration
+
+Use @devxcrew/framework 0.1.8 and @devxcrew/ui 0.2.0 through public exports.
+Verify each existing consumer and fresh generated apps before release acceptance.
+Keep browser, real SMTP and production deployment gates separate.
+
+
 Source: projects/cxsun/agent/PLAN.md, sections 7, 8.4 and 9.
 Owner: devkits/uiux. Keep the master phase and task IDs.
 

@@ -189,3 +189,10 @@ Three-OS source CI passed: GitHub Actions run 37202032805 on Node 26.10.0 and np
 - An isolated copy consumed published UI 0.2.0, generated a registry-only lock, passed npm ci and full verification. Receipt: REGISTRY-CONSUMER.json.
 - Tools is pinned to 0.1.8; Node 26.10 and npm 12.2 are the supported baseline.
 - Browser, keyboard and screen-reader acceptance remain pending.
+
+
+## Shared alignment audit - 2026-10-05
+
+Verification (two tests), build and asset budgets passed. Local UI gallery connection remains intentional.
+
+Authenticated live MCP verification passed. See the [alignment audit](D:/codexsun/projects/cxsun/agent/SHARED-ALIGNMENT.md). Version numbers remain unchanged. No release delivery was performed by this audit.

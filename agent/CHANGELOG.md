@@ -10,6 +10,16 @@ Changelog label: v 0.1.10
 
 ## v-0.1.10
 
+### [v 0.1.10] 2026-10-05 12:46 pm - Record standalone gallery acceptance
+
+#### Database Changes
+
+- Database update: No (manual).
+
+#### App Codebase Changes
+
+- Record two tests, gallery build and asset budgets; keep local UI source development separate from app runtime.
+
 ### [v 0.1.10] 2026-10-05 8:38 am - Align workspace packages
 
 #### Database Changes
@@ -331,3 +341,10 @@ Changelog label: v 0.1.10
 - Current release receipts use verified registry checksums for Framework and UI.
 - Original publication records remain in Git history.
 - No test suite, publication or deployment ran in this cleanup.
+
+
+## Unreleased alignment - 2026-10-05
+
+Verification (two tests), build and asset budgets passed. Local UI gallery connection remains intentional.
+
+Authenticated live MCP verification passed. See the [alignment audit](D:/codexsun/projects/cxsun/agent/SHARED-ALIGNMENT.md). Version numbers remain unchanged. No release delivery was performed by this audit.

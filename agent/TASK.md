@@ -144,3 +144,10 @@ Preserve existing task history and incomplete acceptance gates.
 ## Registry consumer acceptance - 2026-10-04
 
 Two independent generated apps passed exact registry installation, application verification, module boundaries and live SQLite checks. Cross-app session denial passed. Cxsun three-OS CI passed in run 37204145628. See projects/cxsun/agent/GENERATED-CONSUMERS.json and RELEASE-PACKAGES.json. Browser acceptance and future version upgrade rehearsal remain separate.
+
+
+## Shared alignment audit - 2026-10-05
+
+Verification (two tests), build and asset budgets passed. Local UI gallery connection remains intentional.
+
+Authenticated live MCP verification passed. See the [alignment audit](D:/codexsun/projects/cxsun/agent/SHARED-ALIGNMENT.md). Version numbers remain unchanged. No release delivery was performed by this audit.
